@@ -9,8 +9,8 @@ Install physcraper.  Use Cleanup branch.
 If you want to insatll it in a virtaul environment:
 
 
-  virtualenv -p python3 venv-physcraper
-  source venv-physcraper/bin/activate
+  virtualenv -p python3 venv-physcraper  
+  source venv-physcraper/bin/activate  
 
 
 Install physcraper with:
