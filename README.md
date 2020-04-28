@@ -5,7 +5,7 @@
 Update an existing alignment using a phylogeny from OpenTree:  
 
 Install physcraper.  Use Cleanup branch.  
-To use in a virtusl environment:
+To use in a virtual environment:
 
 ```
   virtualenv -p python3 venv-physcraper  
