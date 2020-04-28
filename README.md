@@ -8,7 +8,7 @@ Install physcraper.  Use Cleanup branch.
 
 Install with:
 
-pip install -r requirements.txt
+pip install -r requirements.txt  
 pip install -e . #from the physcraper directory
 
 
