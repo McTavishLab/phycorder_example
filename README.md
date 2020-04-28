@@ -4,12 +4,19 @@
 
 Update an existing alignment using a phylogeny from OpenTree:  
 
-Install physcraper.  Use Cleanup branch.
+Install physcraper.  Use Cleanup branch.  
 
-Install with:
+If you want to insatll it in a virtaul environment:
 
-pip install -r requirements.txt  
-pip install -e . #from the physcraper directory
+
+  virtualenv -p python3 venv-physcraper
+  source venv-physcraper/bin/activate
+
+
+Install physcraper with:
+
+   pip install -r requirements.txt  
+   pip install -e . #from the physcraper directory
 
 
 
