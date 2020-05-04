@@ -1,0 +1,436 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.10.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_44095</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>2218</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_44095</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>2218</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|110669617|gb|DQ782819.1|</Hit_id>
+  <Hit_def>Simonyella variegata isolate AFTOL-ID 80 RNA polymerase II largest subunit (RPB1) gene, partial cds</Hit_def>
+  <Hit_accession>DQ782819</Hit_accession>
+  <Hit_len>3173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>2364.6</Hsp_bit-score>
+      <Hsp_score>2621</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>1314</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>1333</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>1314</Hsp_identity>
+      <Hsp_positive>1314</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>1315</Hsp_align-len>
+      <Hsp_qseq>GGACACATTGAACTTGCGGCACCTGTATTTCATATCGGTATGTCACTTGGAGTATTCTTGAAGGCAAGACAGCTACCAGGACATAGGCTGACAGTGATCCAGGCTTCATCAATAAGACGAAAAAGCTCTTGGAGACTGTTTGTCACAACTGCAGCAAAGTTTTATTGGATGAAGTAAGGCTTTTCACTTGAGCATGGAGCTCAGAATTTGTGTCTATTCAATGCTGACAATGATTGATTAAAGAGTAATCAAGCTTTCGCCGCTGCTTTACGTATTCGCGATCCTAAACGACGGTTTGACACAGTACACAAGCTGTGCAAATCTCGGCCAATATGTGTACCAGACCCGTCTCCAGAAGAAAAGGAAGCAGACCCGAAAGAAGCCATGAAGCCCACTCATGGTGGATGTGGCAATAGACATCCTCAGATTCGTAAGGAGGGGCTGAAAATACAGGGCACGTGGAAAGTTCCCAAAGGGGAGGATGAAGAGGAGCGGGGCGCGACAGAAGAAAAGCGGATGATAACCCCTCAGATGGCATTAGACATCTTCAGAAACATCTCTCAGGAAGACATTCGAAAACTTGGATTGAGTAATGACTACGCGCGTCCCGAATGGATGATCATCACAGTTCTTCCAGTACCACCACCTCAAGTACGCCCAAGTGTTGTGGTCAGTAACAGTGGTGCCGGCCCTCGCGGTGAGGATGACTTGACATACAAGTTGGGTGACATTGTTCGTGCGAACATGAACGTTCGTCGTTGTGAATCTGAGGGATCGCCACAACACGTCAAGACCGAGTTTGAGTCGTTACTACAATTTCATGTCGCGACATACATGGACAACAATATCGCGGGCCAACCGCAAGCCTTACAAAAATCCGGTAGACCAGTCAAATCAATTCGAGCCAGGTTAAAAGGAAAAGAAGGTCGTCTTCGAGGCAACTTAATGGGTAAACGTGTCGATTTCTCGGCACGTACAGTCATCACCGGAGACCCTAATCTTTCTCTTGATGAAGTCGGAGTACCGGTCACGATTTGCAAGACTCTCACGTACGTTGAGACCGTGAATCCCCGCAATATCGCTTACCTTTCACGGTTGGTCGAAACTGGTCCCAATCTTCATCCCGGTGCCAATTACGTGATCAACATGGATCGAACAAAGACGTGGGACTTGAGACGGGTTAAGAATCCACCACGACTAGAGTATGGCTGGCAAGTCGAACGTCACATCGACGATGGCGATTACATCATCTTCAATCGTCAACCGTCTCT-CACAAGGAGTCTATGATGGGTCATAGAGTCAAAGTGATGCCCT</Hsp_qseq>
+      <Hsp_hseq>GGACACATTGAACTTGCGGCACCTGTATTTCATATCGGTATGTCACTTGGAGTATTCTTGAAGGCAAGACAGCTACCAGGACATAGGCTGACAGTGATCCAGGCTTCATCAATAAGACGAAAAAGCTCTTGGAGACTGTTTGTCACAACTGCAGCAAAGTTTTATTGGATGAAGTAAGGCTTTTCACTTGAGCATGGAGCTCAGAATTTGTGTCTATTCAATGCTGACAATGATTGATTAAAGAGTAATCAAGCTTTCGCCGCTGCTTTACGTATTCGCGATCCTAAACGACGGTTTGACACAGTACACAAGCTGTGCAAATCTCGGCCAATATGTGTACCAGACCCGTCTCCAGAAGAAAAGGAAGCAGACCCGAAAGAAGCCATGAAGCCCACTCATGGTGGATGTGGCAATAGACATCCTCAGATTCGTAAGGAGGGGCTGAAAATACAGGGCACGTGGAAAGTTCCCAAAGGGGAGGATGAAGAGGAGCGGGGCGCGACAGAAGAAAAGCGGATGATAACCCCTCAGATGGCATTAGACATCTTCAGAAACATCTCTCAGGAAGACATTCGAAAACTTGGATTGAGTAATGACTACGCGCGTCCCGAATGGATGATCATCACAGTTCTTCCAGTACCACCACCTCAAGTACGCCCAAGTGTTGTGGTCAGTAACAGTGGTGCCGGCCCTCGCGGTGAGGATGACTTGACATACAAGTTGGGTGACATTGTTCGTGCGAACATGAACGTTCGTCGTTGTGAATCTGAGGGATCGCCACAACACGTCAAGACCGAGTTTGAGTCGTTACTACAATTTCATGTCGCGACATACATGGACAACAATATCGCGGGCCAACCGCAAGCCTTACAAAAATCCGGTAGACCAGTCAAATCAATTCGAGCCAGGTTAAAAGGAAAAGAAGGTCGTCTTCGAGGCAACTTAATGGGTAAACGTGTCGATTTCTCGGCACGTACAGTCATCACCGGAGACCCTAATCTTTCTCTTGATGAAGTCGGAGTACCGGTCACGATTTGCAAGACTCTCACGTACGTTGAGACCGTGAATCCCCGCAATATCGCTTACCTTTCACGGTTGGTCGAAACTGGTCCCAATCTTCATCCCGGTGCCAATTACGTGATCAACATGGATCGAACAAAGACGTGGGACTTGAGACGGGTTAAGAATCCACCACGACTAGAGTATGGCTGGCAAGTCGAACGTCACATCGACGATGGCGATTACATCATCTTCAATCGTCAACCGTCTCTNCACAAGGAGTCTATGATGGGTCATAGAGTCAAAGTGATGCCCT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|46411396|gb|AY584631.1|</Hit_id>
+  <Hit_def>Simonyella variegata isolate AFTOL-ID 80 small subunit ribosomal RNA gene, partial sequence; mitochondrial</Hit_def>
+  <Hit_accession>AY584631</Hit_accession>
+  <Hit_len>905</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1633.34</Hsp_bit-score>
+      <Hsp_score>1810</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1314</Hsp_query-from>
+      <Hsp_query-to>2218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>905</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>905</Hsp_identity>
+      <Hsp_positive>905</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>905</Hsp_align-len>
+      <Hsp_qseq>TTTGCGAGATGGAAAAAAGAAGGTTAAATGTTTTATTTTATATTTAAGTATAATATTTCTTCTAGTGGTTTATCCACATAAAATTCTAGATAAAAGACTGATATTGACAGATTTTTATCTAATAGTCTTGACTAAATCACGTGCCAGCTGTCGCGGTAATACGGGAAAGACAAGTGTTATTCATCTTTAATAGGTTTAAAGGGTACCTAGACGGATACAAGAACTCAGCCCTTTTTTTGAAAATAAAAAAGGATGCAAGCTATAATGATTCATGTTATACAGAATTTATAATTTTGTATACATAGAATAGTAGATTTATATCTATACGAGGTGGCCGAATTACCCATTGTTTACCTCCTCCGTGACCAGTTTTGCATGGGTACAAATATCTAGAGTTTTATGTGAGAGGTTAGTGTTAGTACTAACAGAGTAGAGATGAAATTTTTTGATACTGTGGGGCACTGATAAAGGCGAAGGCAATCCTCTATGTAAAAACTGACGTTGAGGGACGAAGGCTTGGGTAGCAAACAGGATTAGGTACCCTAATAGTCCAGGCAGAAAATTATGAGTGTCATAAGCTAGAATGTTTTTAGTTTATAAATGAAAGTGTAAGCACTCCACCTCAAGAGTAATGTGGCAACGCAGGAACTGAAATCATTAGACCGTTTCTGAAACCAGTAGTGAAGTATGTTGTTCAATTCGATGGTCCGCGAAAAACCTTACCACAATTTGGATATTATAGCGGAATCTATTACATAAATAAATTTGCTATTTTTACAGGTGTTGCACGGCTGTCTTTAGTTAATGTCGTGAGATGCAGGTTAGCTCCAATAAATTAACGTAAACCCTTGCTTTATTTATTTTTTATAAAGTATCTTTCTAGTAGATCGGAAAAGATAACAGGG</Hsp_qseq>
+      <Hsp_hseq>TTTGCGAGATGGAAAAAAGAAGGTTAAATGTTTTATTTTATATTTAAGTATAATATTTCTTCTAGTGGTTTATCCACATAAAATTCTAGATAAAAGACTGATATTGACAGATTTTTATCTAATAGTCTTGACTAAATCACGTGCCAGCTGTCGCGGTAATACGGGAAAGACAAGTGTTATTCATCTTTAATAGGTTTAAAGGGTACCTAGACGGATACAAGAACTCAGCCCTTTTTTTGAAAATAAAAAAGGATGCAAGCTATAATGATTCATGTTATACAGAATTTATAATTTTGTATACATAGAATAGTAGATTTATATCTATACGAGGTGGCCGAATTACCCATTGTTTACCTCCTCCGTGACCAGTTTTGCATGGGTACAAATATCTAGAGTTTTATGTGAGAGGTTAGTGTTAGTACTAACAGAGTAGAGATGAAATTTTTTGATACTGTGGGGCACTGATAAAGGCGAAGGCAATCCTCTATGTAAAAACTGACGTTGAGGGACGAAGGCTTGGGTAGCAAACAGGATTAGGTACCCTAATAGTCCAGGCAGAAAATTATGAGTGTCATAAGCTAGAATGTTTTTAGTTTATAAATGAAAGTGTAAGCACTCCACCTCAAGAGTAATGTGGCAACGCAGGAACTGAAATCATTAGACCGTTTCTGAAACCAGTAGTGAAGTATGTTGTTCAATTCGATGGTCCGCGAAAAACCTTACCACAATTTGGATATTATAGCGGAATCTATTACATAAATAAATTTGCTATTTTTACAGGTGTTGCACGGCTGTCTTTAGTTAATGTCGTGAGATGCAGGTTAGCTCCAATAAATTAACGTAAACCCTTGCTTTATTTATTTTTTATAAAGTATCTTTCTAGTAGATCGGAAAAGATAACAGGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|684194347|gb|KJ851021.1|</Hit_id>
+  <Hit_def>Phacographa zwackhii voucher UPS:Frisch 11/Se3 12S small subunit ribosomal RNA gene, partial sequence; mitochondrial</Hit_def>
+  <Hit_accession>KJ851021</Hit_accession>
+  <Hit_len>912</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1007.57</Hsp_bit-score>
+      <Hsp_score>1116</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1373</Hsp_query-from>
+      <Hsp_query-to>2218</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>888</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>739</Hsp_identity>
+      <Hsp_positive>739</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>854</Hsp_align-len>
+      <Hsp_qseq>TTCTAGTGGTTTATCCACATAAAATTCTAGATAAAAGACTGATATTGACAGATTTTTATCTAATAGTCTTGACTAAATCACGTGCCAGCTGTCGCGGTAATACGGGAAAGACAAGTGTTATTCATCTTTAATAGGTTTAAAGGGTACCTAGACGGATACAAGAACTCAGCCCTTTTTTTGAAAATAAAAAAGGATGCAAGCTATAATGATTCATGTTATACAGAATTTATAATTTTGTATACATAGAATAGTAGATTTATATCTATACGAGGTGGCC-------GAATTACCCATTGTT-TACCTCCTCCGTGACCAGTTTTGCATGGGTACAAATATCTAGAGTTTTATGTGAGAGGTTAGTGTTAGTACTAACAGAGTAGAGATGAAATTTTTTGATACTGTGGGGCACTGATAAAGGCGAAGGCAATCCTCTATGTAAAAACTGACGTTGAGGGACGAAGGCTTGGGTAGCAAACAGGATTAGGTACCCTAATAGTCCAGGCAGAAAATTATGAGTGTCATAAGCTAGAATGTTTTTAGTTTATAAATGAAAGTGTAAGCACTCCACCTCAAGAGTAATGTGGCAACGCAGGAACTGAAATCATTAGACCGTTTCTGAAACCAGTAGTGAAGTATGTTGTTCAATTCGATGGTCCGCGAAAAACCTTACCACAATTTGGATATTATAGCGGAATCTATTACATAAATAAATTTGCTATTTTTACAGGTGTTGCACGGCTGTCTTTAGTTAATGTCGTGAGATGCAGGTTAGCTCCAATAAATTAACGTAAACCCTTGCTTTATTTATTTTTTATAAAGTATCTTTCTAGTAGATCGGAAAAGATAACAGGG</Hsp_qseq>
+      <Hsp_hseq>TTCGAGTGGTTTATCCACATAAAATTCTAGATAGATAACTGATAATGACAAATTTCTATCTAATAGTCTTGACTAAATCACGTGCCAGCAGTCGCGGTAATACGGGAAAGACAAGTGTTATTCATCTTTATTAGGTTTAAAGGGTACCTAGACGGATATAAGAACCCGATCCTTTTTTGTAATA---AATTGGCTGCATGCAATGATGGTTTGTGTAAAACAGGAATTACTAGCCTGTATTTGCACAATAACAGGGT-ATA---ATAAGCATTGGTCAGCTTTGGAGTTTCCCATTCTCCTACC--CTCCTTTACTTGTAATGTATGGGTACAAAATTCTAGAGTTTTATCTGAGAGGTTAGTATTAGTATTAACAGAGTAGAGATGAAATTCTTTGATACTGTCGGGCACTGATAACGGCGAAGGCAACCCTTTATGTAAAAACTGACGTTGAGGGACGAAGGCTTGGGTAGCAAACAGGATTAGGTACCCTAATAGTCCAGGCAGAAAATGATGAGTGCCATAGACTAGATTATTTTTGGTCTATAAATGAAAGTGTAAGCATTCCACCTCAAGAGTAATGTGGCAACGCAGGAACTGAAATCATTAGACCGTTTCTGAAACCAGTAGTGAAGTATGTTGTTCAATTCGATGATCCACGAAAAACCTTACCACAATTTGAATATTATAGCGGAATCTATCACATATATAAATATGCTATTAATACAGGTGTTGCACGGCTGTCTTTAGTTAATGTCGTGAGATGCAGGTTAGCTCCAATAAATTAACGTAAACCCTTGCTTTATTTA-TCATTATAAAGTAGTTCTCTGGCATATCGGATAAGGTAACAGGG</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||||||||||| |  ||||||| ||||| |||| ||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||| |   ||||||||  || |   ||  || |||| || || ||| ||  ||| | |||| | |||  |   |||||    | ||||  ||  | |||   ||| |   ||| |       || || |||||| |  ||||  |||| | ||  ||  || |||||||||||  ||||||||||||| |||||||||||| |||||| ||||||||||||||||||||| ||||||||||| |||||||||||| ||||||||||| ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||||  ||||| | ||||| || |||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||||||||||||||||| ||||||||||||||||||| ||||| |||||| |||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  ||||||||||  | ||| | | |||||| ||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|684194348|gb|KJ851022.1|</Hit_id>
+  <Hit_def>Phacographa glaucomaria voucher UPS:Frisch 11/Se33 12S small subunit ribosomal RNA gene, partial sequence; mitochondrial</Hit_def>
+  <Hit_accession>KJ851022</Hit_accession>
+  <Hit_len>880</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>985.024</Hsp_bit-score>
+      <Hsp_score>1091</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1337</Hsp_query-from>
+      <Hsp_query-to>2187</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>866</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>739</Hsp_identity>
+      <Hsp_positive>739</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>861</Hsp_align-len>
+      <Hsp_qseq>TTAAATG-TTTTATTTTATATTTAAGTATAAT--ATTTCTTCTAGTGGTTTATCCACATAAAATTCTAGATAAAAGACTGATATTGACAGATTTTTATCTAATAGTCTTGACTAAATCACGTGCCAGCTGTCGCGGTAATACGGGAAAGACAAGTGTTATTCATCTTTAATAGGTTTAAAGGGTACCTAGACGGATACAAGAACTCAGCCCTTTTTTTGAAAATAAAAAAGGATGCAAGCTATAATGATTCATGTTATACAGAATTTATAATTTTGTATACATAGAATAGTAGATTTATATCTATACGAGGTGGCC-------GAATTACCCATTGTTTACCTCCTCCGTGACCAGTTTTGCATGGGTACAAATATCTAGAGTTTTATGTGAGAGGTTAGTGTTAGTACTAACAGAGTAGAGATGAAATTTTTTGATACTGTGGGGCACTGATAAAGGCGAAGGCAATCCTCTATGTAAAAACTGACGTTGAGGGACGAAGGCTTGGGTAGCAAACAGGATTAGGTACCCTAATAGTCCAGGCAGAAAATTATGAGTGTCATAAGCTAGAATGTTTTTAGTTTATAAATGAAAGTGTAAGCACTCCACCTCAAGAGTAATGTGGCAACGCAGGAACTGAAATCATTAGACCGTTTCTGAAACCAGTAGTGAAGTATGTTGTTCAATTCGATGGTCCGCGAAAAACCTTACCACAATTTGGATATTATAGCGGAATCTATTACATAAATAAATTTGCTATTTTTACAGGTGTTGCACGGCTGTCTTTAGTTAATGTCGTGAGATGCAGGTTAGCTCCAATAAATTAACGTAAACCCTTGCTTTATTTATTTTTTATAAAGTA</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGCTTTTACCTTTAGTTTAGGTAAAAAGCATGTTTTCGAGTGGTTTATCCACATAAAATTCTAGATAGATAACTGATAATGACAAATTTCTATCTAATAGTCTTGACTAAATCACGTGCCAGCTGTCGCGGTAATACGGGAAAGACAAGTGTTATTCATCTTTATTAGGTTTAAAGGGTACCTAGACGGACATAAGAACCCGATCCTTTTTTGTAATA---AATTGGCTGCATGCAATGATGGTTTGTGTAATACAGGAATTACTAGCCTGTATTTGCACAATAACAGGGT-ATA---ATAAGCATTGGTCAGCTTTGGAGTTTTCCATTCTCCAAC-CCTCCTTTACTTGTAATGTATGGGTACAAAAATCTAGAGTTTTATCTGAGAGGTTAGTATTAGTATTAACAGAGTAGAGATGAAATTCTTTGATACTGTCGGGCACTGATAACGGCGAAGGCAACCCTTTATGTAAAAACTGACGTTGAGGGACGAAGGCTTGGGTAGCAAACAGGATTAGATACCCTAATAGTCCAGGCAGAAAATGATGAGTGCCATAGACTAGATTATTTTTGGTCTATAAATGAAAGTGTAAGCATTCCACCTCAAGAGTAATGTGGCAACGCAGGAACTGAAATCATTAGACCGTTTCTGAAACCAGTAGTGAAGTATGTTGTTCAATTCGATAATCCACGAAAAACCTTACCACAATTTGAATATTATAGCGGAATCTATCACATATATAAATATGCTATTAATACAGGTGTTGCACGGCTGTCTTTAGTTAATGTCGTGAGATGCAGGTTAGCTCCAATAAATTAACGTAAACCCTTGCTTTATTTA-TCATTATAAAGTA</Hsp_hseq>
+      <Hsp_midline>|||| || |||||  ||   |||| ||| ||   || | ||| ||||||||||||||||||||||||||||| |  ||||||| ||||| |||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||| | |||||| |   ||||||||  || |   ||  || |||| || || ||| ||  ||| |||||| | |||  |   |||||    | ||||  ||  | |||   ||| |   ||| |       || ||  ||||| |  | | ||||| | ||  ||  || ||||||||||| |||||||||||||| |||||||||||| |||||| ||||||||||||||||||||| ||||||||||| |||||||||||| ||||||||||| ||| |||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||| ||||||| ||||  ||||| | ||||| || |||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||| |||||||||||||||||||||| ||||||||||||||||||| ||||| |||||| |||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|193081873|gb|EU704066.1|</Hit_id>
+  <Hit_def>Opegrapha celtidicola voucher Ertz 16053 (BR) 12S small subunit ribosomal RNA gene, partial sequence; mitochondrial</Hit_def>
+  <Hit_accession>EU704066</Hit_accession>
+  <Hit_len>975</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>733.454</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1681</Hsp_query-from>
+      <Hsp_query-to>2211</Hsp_query-to>
+      <Hsp_hit-from>455</Hsp_hit-from>
+      <Hsp_hit-to>975</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>481</Hsp_identity>
+      <Hsp_positive>481</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>531</Hsp_align-len>
+      <Hsp_qseq>AGTTTTGCATGGGTACAAATATCTAGAGTTTTATGTGAGAGGTTAGTGTTAGTACTAACAGAGTAGAGATGAAATTTTTTGATACTGTGGGGCACTGATAAAGGCGAAGGCAATCCTCTATGTAAAAACTGACGTTGAGGGACGAAGGCTTGGGTAGCAAACAGGATTAGGTACCCTAATAGTCCAGGCAGAAAATTATGAGTGTCATAAGCTAGAATGTTTTTAGTTTATAAATGAAAGTGTAAGCACTCCACCTCAAGAGTAATGTGGCAACGCAGGAACTGAAATCATTAGACCGTTTCTGAAACCAGTAGTGAAGTATGTTGTTCAATTCGATGGTCCGCGAAAAACCTTACCACAATTTGGATATTATAGCGGAATCTATTACATAAATAAATTTGCTATTTTTACAGGTGTTGCACGGCTGTCTTTAGTTAATGTCGTGAGATGCAGGTTAGCTCCAATAAATTAACGTAAACCCTTGCTTTATTTATTTTTTATAAAGTATCTTTCTAGTAGATCGGAAAAGAT</Hsp_qseq>
+      <Hsp_hseq>AGTATTGTACGGGTACAATTATCTAGAGTTTTATGTGAGAGGTTAGTATGAGTACTAACGGAGTAGAGATGAAATTCTTTGATACTGTTGGGCACTGATAACGGCGAAGGCAACCCTTTATGTAAAAACTGACGTTGAGGGACGAAGGCTTGGGTAGCAAACAGGATTAGGTACCCTAATAGTCCAGGCAGAAAATTATGAGTGCCATAGATTAGAATTTTTTTGGTCTATAAATGAAAGTGTAAGCACTCCACCTCAAGAGTAATGTGGCAACGCAGGAACTGAAATCATTAGACCGTTTCTGAAACCAGTAGTGAAGTATGTTGTTTAATTCGATGATCCGCGAAAAACCTTACCACAATTTGAATATATTAGTGTAAAAAATTTC------AAATATGCTATTTATACAGGTGTTGCACGGCTGTCTTTAGTTAATGTCGTGAGATGCAGGTTAGCTCCAATAAATTAACGTAAACCCTTGC----TTTATTTGTTATAAAGTAGTTCTCTGGAATATCGGATAAGAT</Hsp_hseq>
+      <Hsp_midline>||| ||| | |||||||| |||||||||||||||||||||||||||| | ||||||||| |||||||||||||||| ||||||||||| |||||||||||| ||||||||||| ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||   |||||| ||||| || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| |||||||||||||||||||||||||| ||||  ||| | ||   ||| |      |||| |||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||| ||||||||||  | ||| | | |||||| |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>289.825</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>1.57851e-74</Hsp_evalue>
+      <Hsp_query-from>1345</Hsp_query-from>
+      <Hsp_query-to>1601</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>258</Hsp_align-len>
+      <Hsp_qseq>TTTATTTTATATTTAAGTATA-ATATTTCTTCTAGTGGTTTATCCACATAAAATTCTAGATAAAAGACTGATATTGACAGATTTTTATCTAATAGTCTTGACTAAATCACGTGCCAGCTGTCGCGGTAATACGGGAAAGACAAGTGTTATTCATCTTTAATAGGTTTAAAGGGTACCTAGACGGATACAAGAACTCAGCCCTTTTTTTGAAAATAAAAAAGGATGCAAGCTATAATGATTCATGTTATACAGAATTTA</Hsp_qseq>
+      <Hsp_hseq>TTTATTTTTGGTTTAAGTATACACAATTTGTCCAGTGGTTTATCCACATAAAATTCTAGATAGTAAACTGATAATGACAAATTACTATCTAATAGTCTTGACTAAATCACGTGCCAGCTGTCGCGGTAATACGGGAAAGACAAGTGTTATTCATCTTTAATAGGTTTAAAGGGTACCTAGACGGATATATAAACCCTATCCTTTTATGTAA---AAAAGAGGGTGCAATCTATAATAGTTTGTGTTATGCAGAAATTA</Hsp_hseq>
+      <Hsp_midline>||||||||   |||||||||| | | ||  || |||||||||||||||||||||||||||||  | ||||||| ||||| |||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  ||| |   |||||| |  ||   |||| ||| ||||| |||||||  ||  |||||| ||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|684194331|gb|KJ851005.1|</Hit_id>
+  <Hit_def>Opegrapha brevis voucher LD:L10094 12S small subunit ribosomal RNA gene, partial sequence; mitochondrial</Hit_def>
+  <Hit_accession>KJ851005</Hit_accession>
+  <Hit_len>1005</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>691.075</Hsp_bit-score>
+      <Hsp_score>765</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1691</Hsp_query-from>
+      <Hsp_query-to>2218</Hsp_query-to>
+      <Hsp_hit-from>480</Hsp_hit-from>
+      <Hsp_hit-to>1000</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>474</Hsp_identity>
+      <Hsp_positive>474</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>531</Hsp_align-len>
+      <Hsp_qseq>GGGTACAAATATCTAGAGTTTTATGTGAGAGGTTAGTGTTAGTACTAACAGAGTAGAGATGAAATTTTTTGATACTGTGGGGCACTGATAAAGGCGAAGGCAATCCTCTATGTAAAAACTGACGTTGAGGGACGAAGGCTTGGGTAGCAAACAGGATTAGGTACCCTAATAGTCCAGGCAGAAAATTATGAGTGTCATAAGCTAGAATGTTTTTAGTTTATAAATG-AAAGTGTAAGCACTCCACCTCAAGAGTAATGTGGCAACGCAGGAACTGAAATCATTAGACCGTTTCTGAAACCAGTAGTGAAGTATGTTGTTCAATTCGATGGTCCGCGAAAAACCTTACCACAATTTGGATATTATAGCG--GAATCTATTACATAAATAAATTTGCTATTTTTACAGGTGTTGCACGGCTGTCTTTAGTTAATGTCGTGAGATGCAGGTTAGCTCCAATAAATTAACGTAAACCCTTGCTTTATTTATTTTTTATAAAGTATCTTTCTAGTAGATCGGAAAAGATAACAGGG</Hsp_qseq>
+      <Hsp_hseq>GGTTACAAAAACCTAGAGTTTTATGTAAGAGGATTTTATAAGTACTAACGGAGTAGAGATGAAATTTTTTGATACTGTTGGGCACTGATAACGGCGAAGGCAACCCTTTATGTAAAAACTGACGTTGAGGGACGAAGGCTTGGGTAGCAAACAGGATTAGGTACCCTAATAGTCCAGGCAGAAAATTATGAATGCCATAGTCTAGAATTATTTTGGTCTATAAATGAAAAGTGTAAGCATTTCACCTCAAGAGTAATGTGGCAACGCAGGAACTGAAATCATTAGACCGTTTCTGAAACCAGTAGTGAAGTATGTTGTTTAATTCGATGGTCCGCGAAAAACCTTACCACAATTTGAATATTTTAGCGTAAAAACTTTTTTATA--------TGCTATTTATACAGGTGTTGCACGGCTGTCTTTAGTTAATGTCGTGAGATGCAGGTTAGCTCCAAGGAATTAACGTAAACCCTTGC-TTATTTA-TTATTATAAAGTAGTTCTTTGGAATATCGGATAAGATAACAGGG</Hsp_hseq>
+      <Hsp_midline>|| |||||| | |||||||||||||| ||||| |  | | ||||||||| |||||||||||||||||||||||||||| |||||||||||| ||||||||||| ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||  |||||||  |||| || |||||||| |||||||||||| | ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||| ||||| |||||   || || ||  |||        |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||| ||||||| || ||||||||||  | | | | | |||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>284.415</Hsp_bit-score>
+      <Hsp_score>314</Hsp_score>
+      <Hsp_evalue>6.71201e-73</Hsp_evalue>
+      <Hsp_query-from>1317</Hsp_query-from>
+      <Hsp_query-to>1601</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>238</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>GCGAGATGGAAAAAAGAAGGTTAAATGTTTT-ATTTTATATTTAAGTATAAT-ATTTCTTCTAGTGGTTTATCCACATAAAATTCTAGATAAAAGACTGATATTGACAGATTTTTATCTAATAGTCTTGACTAAATCACGTGCCAGCTGTCGCGGTAATACGGGAAAGACAAGTGTTATTCATCTTTAATAGGTTTAAAGGGTACCTAGACGGATACAAGAACTCAGCCCTTTTTTTGAAAATAAAAAAGGATGCAAGCTATAATGATTCATGTTATACAGAATTTA</Hsp_qseq>
+      <Hsp_hseq>GCGAGATG-AATATGGAAATTTTATTGTTTTTACTTTTGGTTTAAGTAAAGGCAATTTATCCAGTGGTTTATCCACATAAAATTCTAGATAGAAAACTGATAATGACAAATTTCTATCTAATAGTCTTGACTAAATCACGTGCCAGCTGTCGCGGTAATACGGGAAAGACAAGTGTTATTCATCTTTAATAGGTTTAAAGGGTACCTAGACGGGTATATGAATCCAAGCCTTTTATGTACAAT--AAAAGGGTGCAAACTATTATAGTTTGTGTTACGCAGAAATTA</Hsp_hseq>
+      <Hsp_midline>|||||||| || |  |||  || | |||||| | |||   |||||||| |   | ||  || ||||||||||||||||||||||||||||| || ||||||| ||||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || | |||  ||  |||||| |  | |||  |||||| ||||| |||| ||  ||  |||||  ||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1335032285|gb|MG845014.1|</Hit_id>
+  <Hit_def>Lecanographa hypothallina voucher Ertz 12448 (BR) small subunit ribosomal RNA gene, partial sequence; mitochondrial</Hit_def>
+  <Hit_accession>MG845014</Hit_accession>
+  <Hit_len>836</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>657.713</Hsp_bit-score>
+      <Hsp_score>728</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1701</Hsp_query-from>
+      <Hsp_query-to>2218</Hsp_query-to>
+      <Hsp_hit-from>283</Hsp_hit-from>
+      <Hsp_hit-to>804</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>459</Hsp_identity>
+      <Hsp_positive>459</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>522</Hsp_align-len>
+      <Hsp_qseq>ATCTAGAGTTTTATGTGAGAGGTTAGTGTTAGTACTAACAGAGTAGAGATGAAATTTTTTGATACTGTGGGGCACTGATAAAGGCGAAGGCAATCCTCTATGTAAAAACTGACGTTGAGGGACGAAGGCTTGGGTAGCAAACAGGATTAGGTACCCTAATAGTCCAGGCAGAAAATTATGAGTGTCATAAGCTAGAATGTTTTTAGTTTATAAATGAAAGTGTAAGCACTCCACCTCAAGAGTAATGTGGCAACGCAGGAACTGAAATCATTAGACCGTTTCTGAAACCAGTAGTGAAGTATGTTGTTCAATTCGATGGTCCGCGAAAAACCTTACCACAATTTGGATATTATAGCGGAATCTATTACATAAATAAATTT----GCTATTTTTACAGGTGTTGCACGGCTGTCTTTAGTTAATGTCGTGAGATGCAGGTTAGCTCCAATAAATTAACGTAAACCCTTGCTTTATTTATTTTTTATAAAGTATCTTTCTAGTAGATCGGAAAAGATAACAGGG</Hsp_qseq>
+      <Hsp_hseq>ATCTAGAGTTTTATATGAGAGGTAAATGTCAGTACCAACGGAGTAGAGATGAAATTTTTTAATACTGTTGGGCACTGGTAAAGGCGAAAGCAACCCTTTATGTAAAAACTGACGTTGAGGGACGAAGGCTTGGGTAGCAAACAGGATTAGATACCCTAATAGTCCAGGCAGATAATTATGAGTGCCATAGATTAGAATTATTTTGATCTATAAATGAAAGTGTAAGCACTCCACCTCAAGAGTAATGTGGCAACGCAGGAACTGAAATCATTAGACCGTTTCTGAAACCAGTAGTGAAGTATGTTGTTTAATTCGATAATCCGCGAAAAACCTTACCACAACTTGAATGTTATAGTGTAATAGGTCACATACCTACATTTATACACTAGTTATACAGGTGTTGCACGGCTGTCTTTAGTTAATGTCGTGAGATTCAGGTTAGCTCCATTTAATTAACGTAAACCCTTGCTTTATTTGTCATATATAAAGCAGTTCACCAGTATATTGGTTAAGATAAGAGGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||| | ||| ||||| ||| |||||||||||||||||||| ||||||| |||||||| |||||||||| |||| ||| |||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||| ||||||||||| ||||   ||||||  ||||  | |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||  |||||||||||||||||||||| ||| || |||||| | |||   | |||||  || ||||     ||| || ||||||||||||||||||||||||||||||||||||||||| ||||||||||||| | |||||||||||||||||||||||||| |  | ||||||| |  |  | |||| || ||  ||||||| ||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>230.314</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>1.29687e-56</Hsp_evalue>
+      <Hsp_query-from>1373</Hsp_query-from>
+      <Hsp_query-to>1529</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>TTCTAGTGGTTTATCCACATAAAATTCTAGATAAAAGACTGATATTGACAGATTTTTATCTAATAGTCTTGACTAAATCACGTGCCAGCTGTCGCGGTAATACGGGAAAGACAAGTGTTATTCATCTTTAATAGGTTTAAAGGGTACCTAGACGGAT</Hsp_qseq>
+      <Hsp_hseq>TTTTAGTGGTTTATCCACATAAAATTCTAGATATAATATTGATAATGACAACTTTATATCTAATAGTCTTGACTAAGTCACGTGCCAGCAGTCGCGGTAATACGGGAGAGACTAGTGTTATTCATCTTTAATAGGTTTAAAGGGTACCTAGACGGAT</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||||||||||||||||||| || | ||||| |||||  ||| |||||||||||||||||||| |||||||||||| ||||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1335032278|gb|MG845007.1|</Hit_id>
+  <Hit_def>Buellia violaceofusca voucher Thor 31380 (UPS) small subunit ribosomal RNA gene, partial sequence; mitochondrial</Hit_def>
+  <Hit_accession>MG845007</Hit_accession>
+  <Hit_len>825</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>644.187</Hsp_bit-score>
+      <Hsp_score>713</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1701</Hsp_query-from>
+      <Hsp_query-to>2218</Hsp_query-to>
+      <Hsp_hit-from>278</Hsp_hit-from>
+      <Hsp_hit-to>799</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>457</Hsp_identity>
+      <Hsp_positive>457</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>522</Hsp_align-len>
+      <Hsp_qseq>ATCTAGAGTTTTATGTGAGAGGTTAGTGTTAGTACTAACAGAGTAGAGATGAAATTTTTTGATACTGTGGGGCACTGATAAAGGCGAAGGCAATCCTCTATGTAAAAACTGACGTTGAGGGACGAAGGCTTGGGTAGCAAACAGGATTAGGTACCCTAATAGTCCAGGCAGAAAATTATGAGTGTCATAAGCTAGAATGTTTTTAGTTTATAAATGAAAGTGTAAGCACTCCACCTCAAGAGTAATGTGGCAACGCAGGAACTGAAATCATTAGACCGTTTCTGAAACCAGTAGTGAAGTATGTTGTTCAATTCGATGGTCCGCGAAAAACCTTACCACAATTTGGATATTATAGCGGAATCTATTACATA--AA--TAAATTTGCTATTTTTACAGGTGTTGCACGGCTGTCTTTAGTTAATGTCGTGAGATGCAGGTTAGCTCCAATAAATTAACGTAAACCCTTGCTTTATTTATTTTTTATAAAGTATCTTTCTAGTAGATCGGAAAAGATAACAGGG</Hsp_qseq>
+      <Hsp_hseq>ATCTAGAGTTTTATATGAGAGGTAGATGTCAGTACCAACGGAGTAGAGATGAAATTTTTTAATACTGTTGGGCACTGGTAAAGGCGAAAGCAACCCTTTATGTAAAAACTGACGTTGAGGGACGAAGGCTTGGGTAGCAAACAGGATTAGGTACCCTAATAGTCCAGGCAGATAATGATGAGTGCCATAGATTAGAATTATTTTGATCTATAAATGAAAGTGTAAGCACTCCACCTCAAGAGTAATGTGGCAACGCAGGAACTGAAATCATTAGACCGTTTCTGAAACCAGTAGTGAAGTATGTTGTTTAATTCGATAATCCGCGAAAAACCTTACCACAACTTGAATATTATAGTGTAATTGGTCAGATACCAATGTTTATACACTAGTTATACAGGTGTTGCACGGCTGTCTTTAGTTAATGTCGTGAGATTCAGGTTAGCTCCATTTAATTAACGCAAACCCTTGCTTTATATATCATATATAAAGTAGTTCACCAGTATATTGGTTAAGATAATAGGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| ||||||||   ||| ||||| ||| |||||||||||||||||||| ||||||| |||||||| |||||||||| |||| ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||| ||||   ||||||  ||||  | |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||  |||||||||||||||||||||| ||| ||||||||| | |||   | | |||  ||  |  ||   ||| || ||||||||||||||||||||||||||||||||||||||||| ||||||||||||| | |||||||| ||||||||||||||| |||  | |||||||||  |  | |||| || ||  ||||||| ||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>234.823</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>1.06453e-57</Hsp_evalue>
+      <Hsp_query-from>1373</Hsp_query-from>
+      <Hsp_query-to>1529</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>TTCTAGTGGTTTATCCACATAAAATTCTAGATAAAAGACTGATATTGACAGATTTTTATCTAATAGTCTTGACTAAATCACGTGCCAGCTGTCGCGGTAATACGGGAAAGACAAGTGTTATTCATCTTTAATAGGTTTAAAGGGTACCTAGACGGAT</Hsp_qseq>
+      <Hsp_hseq>TTTTAGTGGTTTATCCACATAAAATTCTAGATATAATATTGATAATGACAACTTTATATCTAATAGTCTTGACTAAGTCACGTGCCAGCAGTCGCGGTAATACGGGAGAGACAAGTGTTATTCATCTTTAATAGGTTTAAAGGGTACCTAGACGGAT</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||||||||||||||||||| || | ||||| |||||  ||| |||||||||||||||||||| |||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1335032277|gb|MG845006.1|</Hit_id>
+  <Hit_def>Buellia violaceofusca voucher Kukwa 15628 (UGDA) small subunit ribosomal RNA gene, partial sequence; mitochondrial</Hit_def>
+  <Hit_accession>MG845006</Hit_accession>
+  <Hit_len>834</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>644.187</Hsp_bit-score>
+      <Hsp_score>713</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1701</Hsp_query-from>
+      <Hsp_query-to>2218</Hsp_query-to>
+      <Hsp_hit-from>283</Hsp_hit-from>
+      <Hsp_hit-to>804</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>457</Hsp_identity>
+      <Hsp_positive>457</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>522</Hsp_align-len>
+      <Hsp_qseq>ATCTAGAGTTTTATGTGAGAGGTTAGTGTTAGTACTAACAGAGTAGAGATGAAATTTTTTGATACTGTGGGGCACTGATAAAGGCGAAGGCAATCCTCTATGTAAAAACTGACGTTGAGGGACGAAGGCTTGGGTAGCAAACAGGATTAGGTACCCTAATAGTCCAGGCAGAAAATTATGAGTGTCATAAGCTAGAATGTTTTTAGTTTATAAATGAAAGTGTAAGCACTCCACCTCAAGAGTAATGTGGCAACGCAGGAACTGAAATCATTAGACCGTTTCTGAAACCAGTAGTGAAGTATGTTGTTCAATTCGATGGTCCGCGAAAAACCTTACCACAATTTGGATATTATAGCGGAATCTATTACATA--AA--TAAATTTGCTATTTTTACAGGTGTTGCACGGCTGTCTTTAGTTAATGTCGTGAGATGCAGGTTAGCTCCAATAAATTAACGTAAACCCTTGCTTTATTTATTTTTTATAAAGTATCTTTCTAGTAGATCGGAAAAGATAACAGGG</Hsp_qseq>
+      <Hsp_hseq>ATCTAGAGTTTTATATGAGAGGTAGATGTCAGTACCAACGGAGTAGAGATGAAATTTTTTAATACTGTTGGGCACTGGTAAAGGCGAAAGCAACCCTTTATGTAAAAACTGACGTTGAGGGACGAAGGCTTGGGTAGCAAACAGGATTAGGTACCCTAATAGTCCAGGCAGATAATGATGAGTGCCATAGATTAGAATTATTTTGATCTATAAATGAAAGTGTAAGCACTCCACCTCAAGAGTAATGTGGCAACGCAGGAACTGAAATCATTAGACCGTTTCTGAAACCAGTAGTGAAGTATGTTGTTTAATTCGATAATCCGCGAAAAACCTTACCACAACTTGAATATTATAGTGTAATTGGTCAGATACCAATGTTTATACACTAGTTATACAGGTGTTGCACGGCTGTCTTTAGTTAATGTCGTGAGATTCAGGTTAGCTCCATTTAATTAACGCAAACCCTTGCTTTATATATCATATATAAAGTAGTTCACCAGTATATTGGTTAAGATAATAGGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| ||||||||   ||| ||||| ||| |||||||||||||||||||| ||||||| |||||||| |||||||||| |||| ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||| ||||   ||||||  ||||  | |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||  |||||||||||||||||||||| ||| ||||||||| | |||   | | |||  ||  |  ||   ||| || ||||||||||||||||||||||||||||||||||||||||| ||||||||||||| | |||||||| ||||||||||||||| |||  | |||||||||  |  | |||| || ||  ||||||| ||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>234.823</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>1.06453e-57</Hsp_evalue>
+      <Hsp_query-from>1373</Hsp_query-from>
+      <Hsp_query-to>1529</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>TTCTAGTGGTTTATCCACATAAAATTCTAGATAAAAGACTGATATTGACAGATTTTTATCTAATAGTCTTGACTAAATCACGTGCCAGCTGTCGCGGTAATACGGGAAAGACAAGTGTTATTCATCTTTAATAGGTTTAAAGGGTACCTAGACGGAT</Hsp_qseq>
+      <Hsp_hseq>TTTTAGTGGTTTATCCACATAAAATTCTAGATATAATATTGATAATGACAACTTTATATCTAATAGTCTTGACTAAGTCACGTGCCAGCAGTCGCGGTAATACGGGAGAGACAAGTGTTATTCATCTTTAATAGGTTTAAAGGGTACCTAGACGGAT</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||||||||||||||||||| || | ||||| |||||  ||| |||||||||||||||||||| |||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1335032276|gb|MG845005.1|</Hit_id>
+  <Hit_def>Buellia violaceofusca voucher Kukwa 12998 (UGDA) small subunit ribosomal RNA gene, partial sequence; mitochondrial</Hit_def>
+  <Hit_accession>MG845005</Hit_accession>
+  <Hit_len>805</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>644.187</Hsp_bit-score>
+      <Hsp_score>713</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1701</Hsp_query-from>
+      <Hsp_query-to>2218</Hsp_query-to>
+      <Hsp_hit-from>252</Hsp_hit-from>
+      <Hsp_hit-to>773</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>457</Hsp_identity>
+      <Hsp_positive>457</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>522</Hsp_align-len>
+      <Hsp_qseq>ATCTAGAGTTTTATGTGAGAGGTTAGTGTTAGTACTAACAGAGTAGAGATGAAATTTTTTGATACTGTGGGGCACTGATAAAGGCGAAGGCAATCCTCTATGTAAAAACTGACGTTGAGGGACGAAGGCTTGGGTAGCAAACAGGATTAGGTACCCTAATAGTCCAGGCAGAAAATTATGAGTGTCATAAGCTAGAATGTTTTTAGTTTATAAATGAAAGTGTAAGCACTCCACCTCAAGAGTAATGTGGCAACGCAGGAACTGAAATCATTAGACCGTTTCTGAAACCAGTAGTGAAGTATGTTGTTCAATTCGATGGTCCGCGAAAAACCTTACCACAATTTGGATATTATAGCGGAATCTATTACATA--AA--TAAATTTGCTATTTTTACAGGTGTTGCACGGCTGTCTTTAGTTAATGTCGTGAGATGCAGGTTAGCTCCAATAAATTAACGTAAACCCTTGCTTTATTTATTTTTTATAAAGTATCTTTCTAGTAGATCGGAAAAGATAACAGGG</Hsp_qseq>
+      <Hsp_hseq>ATCTAGAGTTTTATATGAGAGGTAGATGTCAGTACCAACGGAGTAGAGATGAAATTTTTTAATACTGTTGGGCACTGGTAAAGGCGAAAGCAACCCTTTATGTAAAAACTGACGTTGAGGGACGAAGGCTTGGGTAGCAAACAGGATTAGGTACCCTAATAGTCCAGGCAGATAATGATGAGTGCCATAGATTAGAATTATTTTGATCTATAAATGAAAGTGTAAGCACTCCACCTCAAGAGTAATGTGGCAACGCAGGAACTGAAATCATTAGACCGTTTCTGAAACCAGTAGTGAAGTATGTTGTTTAATTCGATAATCCGCGAAAAACCTTACCACAACTTGAATATTATAGTGTAATTGGTCAGATACCAATGTTTATACACTAGTTATACAGGTGTTGCACGGCTGTCTTTAGTTAATGTCGTGAGATTCAGGTTAGCTCCATTTAATTAACGCAAACCCTTGCTTTATATATCATATATAAAGTAGTTCACCAGTATATTGGTTAAGATAATAGGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| ||||||||   ||| ||||| ||| |||||||||||||||||||| ||||||| |||||||| |||||||||| |||| ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||| ||||   ||||||  ||||  | |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||  |||||||||||||||||||||| ||| ||||||||| | |||   | | |||  ||  |  ||   ||| || ||||||||||||||||||||||||||||||||||||||||| ||||||||||||| | |||||||| ||||||||||||||| |||  | |||||||||  |  | |||| || ||  ||||||| ||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>234.823</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>1.06453e-57</Hsp_evalue>
+      <Hsp_query-from>1373</Hsp_query-from>
+      <Hsp_query-to>1529</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>TTCTAGTGGTTTATCCACATAAAATTCTAGATAAAAGACTGATATTGACAGATTTTTATCTAATAGTCTTGACTAAATCACGTGCCAGCTGTCGCGGTAATACGGGAAAGACAAGTGTTATTCATCTTTAATAGGTTTAAAGGGTACCTAGACGGAT</Hsp_qseq>
+      <Hsp_hseq>TTTTAGTGGTTTATCCACATAAAATTCTAGATATAATATTGATAATGACAACTTTATATCTAATAGTCTTGACTAAGTCACGTGCCAGCAGTCGCGGTAATACGGGAGAGACAAGTGTTATTCATCTTTAATAGGTTTAAAGGGTACCTAGACGGAT</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||||||||||||||||||| || | ||||| |||||  ||| |||||||||||||||||||| |||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>5174394</Statistics_db-num>
+      <Statistics_db-len>282264328272</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,85 @@
+
+
+IMPORTANT WARNING: Sequences otu376420 and otuPS39 are exactly identical
+
+IMPORTANT WARNING
+Found 1 sequence that is exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file /home/lsanchezreyes2/repos/physcraper_example/tmp/physcraper.fas.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.11 released by Alexandros Stamatakis on June 2017.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 713 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 15.53%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 user-specified trees
+
+All free model parameters will be estimated by RAxML
+ML estimate of 25 per site rate categories
+
+Likelihood of final tree will be evaluated and optimized under GAMMA
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 713
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -m GTRCAT -s /home/lsanchezreyes2/repos/physcraper_example/tmp/physcraper.fas -t /home/lsanchezreyes2/repos/physcraper_example/tmp/random_resolve.tre -p 1 -n 2020-04-29 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.336 0.165 0.164 0.335 
+
+You provided an incomplete starting tree 31 alignmnet has 68 taxa
+Inference[0]: Time 9.225206 CAT-based likelihood -8874.551721, best rearrangement setting 5
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 1.047974 1.749936 0.236651 1.048443 1.706621 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -10403.277589 tree written to file /home/lsanchezreyes2/repos/physcraper_example/tmp/RAxML_result.2020-04-29
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -10403.277589 .... 
+
+Final GAMMA-based Score of best tree -10401.963690
+
+Program execution info written to /home/lsanchezreyes2/repos/physcraper_example/tmp/RAxML_info.2020-04-29
+Best-scoring ML tree written to: /home/lsanchezreyes2/repos/physcraper_example/tmp/RAxML_bestTree.2020-04-29
+
+Overall execution time: 22.255033 secs or 0.006182 hours or 0.000258 days
+
