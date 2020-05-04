@@ -1,19 +1,27 @@
-# phycorder_example
+# Physcraper Run Example
 
 
 
 Update an existing alignment using a phylogeny from OpenTree:  
 
-Install physcraper.  Use Cleanup branch.
+Install physcraper.  Use Cleanup branch. 
 
-Install with:
+To use in a virtual environment:
 
-pip install -r requirements.txt
-pip install -e . #from the physcraper directory
+```
+  virtualenv -p python3 venv-physcraper  
+  source venv-physcraper/bin/activate  
+```
 
+Install physcraper with:
+```
+   pip install -r requirements.txt  
+   pip install -e . #from the physcraper directory
+```
 
 You can run analyses using   
     physcraper_run.py with the following possible arguments.
+
 
 
   -s STUDY_ID, --study_id STUDY_ID
