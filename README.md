@@ -19,11 +19,9 @@ Install physcraper with:
    pip install -e . #from the physcraper directory
 ```
 
-You can run analyses using   
+You can run analyses using `physcraper_run.py` with the following possible arguments.
 
-    physcraper_run.py with the following possible arguments.
-
-
+```
   -s STUDY_ID, --study_id STUDY_ID  
                         OpenTree study id  
   -t TREE_ID, --tree_id TREE_ID  
@@ -39,17 +37,14 @@ You can run analyses using
   -c CONFIG_FILE, --config_file CONFIG_FILE  
                         path to config file  
   -tb, --treebase       download alignment from treebase  
+```
 
 
-
-The simplest (but slowest) 
-
-
-To get an alignment from treebase, for a tree from opentree, using web blast:  
+The simplest (but slowest) run is to choose a tree from opentree, and `physcraper` gets the alignment for you from treebase (argument `-tb`), using web blast:  
 
     physcraper_run.py -s pg_55 -t tree5864 -tb -o output_pg55_treebase 
 
 
-To update a downlodad alignment and estimate a tree, for a tree from opentree, using a local blast directory:  
+The fastest run is to choose a tree from opentree, give the path to the corresponding downloaded alignment (argument `-a`) and a local blast directory (argument `-db`):  
 
     physcraper_run.py -s pg_55 -t tree5864 -a treebase_alns/pg_55tree5864.aln -as "nexus" -db ~/ncbi/localblastdb_meta/ -o output_pg55_local
