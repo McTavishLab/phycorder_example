@@ -4,7 +4,7 @@
 
 Update an existing alignment using a phylogeny from OpenTree:  
 
-Install physcraper.  Use Cleanup branch. 
+Install physcraper.  
 
 To use in a virtual environment:
 
