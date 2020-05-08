@@ -47,4 +47,25 @@ The simplest (but slowest) run is to choose a tree from opentree, and `physcrape
 
 The fastest run is to choose a tree from opentree, give the path to the corresponding downloaded alignment (argument `-a`) and a local blast directory (argument `-db`):  
 
-    physcraper_run.py -s pg_55 -t tree5864 -a treebase_alns/pg_55tree5864.aln -as "nexus" -db ~/ncbi/localblastdb_meta/ -o output_pg55_local
+    physcraper_run.py -s pg_55 -t tree5864 -a treebase_alns/pg_55tree5864.aln -as "nexus" -db ~/ncbi/localblastdb/ -o output_pg55_local
+
+
+To check tree download and the matching of names across tree and alignment without running the blast and tree estimation steps, use the flag (-no_est):  
+  
+    physcraper_run.pys ot_1919 -t Tr115925 --treebase -db ~/ncbi/localblastdb/ -no_est -o output_test
+
+  Take a look at the tree, teh alignemnt and the out_info csv file. It will list all taxa by their unique idetifiers.
+
+
+To then run a blast search and estimate an updated tree from that tree and alignemnt, you can re-load from that directory. It will sue your same config settings (which weere automatically written out to outputdir/run.config)
+
+    physcraper_run.py -re output_test/ -o output_test
+
+
+To re-run with a different configuration file, 
+
+    physcraper_run.py -re output_test/ -c alt_config -o output_test
+
+
+
+
