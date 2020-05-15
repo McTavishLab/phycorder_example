@@ -113,28 +113,29 @@ To re-run with a different configuration file,
 
 Configuration parameters can be either set in a cofniguration file using -c (e.g. data.config)
 
-  physcraper_run.py -s pg_55 -t tree5864 -a treebase_alns/pg_55tree5864_ndhf.aln -nt 8 -spn 3 -hl 20 -as "nexus" -c data.config -o output4
+    physcraper_run.py -s pg_55 -t tree5864 -a treebase_alns/pg_55tree5864_ndhf.aln -nt 8 -spn 3 -hl 20 -as "nexus" -c data.config -o output4
 
 
 Or they can be modified in the command line arguments. If you combine a configuration file with command line configuration paratemeters, the command line arguments will be used.
 
-  physcraper_run.py -s pg_55 -t tree5864 -a treebase_alns/pg_55tree5864_ndhf.aln -nt 8 -spn 3 -hl 20 -as "nexus" -db ~/ncbi/localblastdb/ -o output4
+    physcraper_run.py -s pg_55 -t tree5864 -a treebase_alns/pg_55tree5864_ndhf.aln -nt 8 -spn 3 -hl 20 -as "nexus" -db ~/ncbi/localblastdb/ -o output4
 
 
 The current copnfiguration settings are written to standard out, and saved in the output directory as run.config
+e.g. 
 
-[blast]
-Entrez.email = None
-e_value_thresh = 1e-05
-hitlist_size = 20
-location = local
-localblastdb = /home/ejmctavish/ncbi/localblastdb/
-url_base = None
-num_threads = 8
-delay = 90
-[physcraper]
-spp_threshold = 3
-seq_len_perc = 0.8
-trim_perc = 0.8
-max_len = 1.2
-taxonomy_path = /home/ejmctavish/projects/otapi/physcraper/taxonomy
+    [blast]
+    Entrez.email = None
+    e_value_thresh = 1e-05
+    hitlist_size = 20
+    location = local
+    localblastdb = /home/ejmctavish/ncbi/localblastdb/
+    url_base = None
+    num_threads = 8
+    delay = 90
+    [physcraper]
+    spp_threshold = 3
+    seq_len_perc = 0.8
+    trim_perc = 0.8
+    max_len = 1.2
+    taxonomy_path = /home/ejmctavish/projects/otapi/physcraper/taxonomy
