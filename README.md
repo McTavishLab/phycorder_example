@@ -95,12 +95,15 @@ The fastest run is to choose a tree from opentree, give the path to the correspo
 
 To check tree download and the matching of names across tree and alignment without running the blast and tree estimation steps, use the flag (-no_est):  
   
-    physcraper_run.pys ot_1919 -t Tr115925 --treebase -db ~/ncbi/localblastdb/ -no_est -o output_test
+    physcraper_run.py -s ot_1919 -t Tr115925 --treebase -db ~/ncbi/localblastdb/ -no_est -o output_test
 
   Take a look at the tree, teh alignemnt and the out_info csv file. It will list all taxa by their unique idetifiers.
 
 
-To then run a blast search and estimate an updated tree from that tree and alignemnt, you can re-load from that directory. It will sue your same config settings (which weere automatically written out to outputdir/run.config)
+To then run a blast search and estimate an updated tree from that tree and alignemnt, you can re-load from that directory. It will use your same config settings (which weere automatically written out to outputdir/run.config).
+
+If the run completed, re-run will use the final output ree and alignment. If the run was not compelte, it will reload the input files.
+
 
     physcraper_run.py -re output_test/ -o output_test
 
