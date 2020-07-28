@@ -1,0 +1,33 @@
+
+MUSCLE v3.8.1551 by Robert C. Edgar
+
+http://www.drive5.com/muscle
+This software is donated to the public domain.
+Please cite: Edgar, R.C. Nucleic Acids Res 32(5), 1792-97.
+
+new_seqs_UNaligned_2020-07-24_p 11 seqs, lengths min 1979, max 2105, avg 2060
+00:00:00    16 MB(-2%)  Iter   1    1.52%  K-mer dist pass 100:00:00    16 MB(-2%)  Iter   1  100.00%  K-mer dist pass 1
+00:00:00    16 MB(-2%)  Iter   1    1.52%  K-mer dist pass 200:00:00    16 MB(-2%)  Iter   1  100.00%  K-mer dist pass 2
+00:00:00    17 MB(-2%)  Iter   1   10.00%  Align node       00:00:01    28 MB(-3%)  Iter   1   20.00%  Align node00:00:01    31 MB(-3%)  Iter   1   30.00%  Align node00:00:01    32 MB(-3%)  Iter   1   40.00%  Align node00:00:01    33 MB(-4%)  Iter   1   50.00%  Align node00:00:01    33 MB(-4%)  Iter   1   60.00%  Align node00:00:01    34 MB(-4%)  Iter   1   70.00%  Align node00:00:01    35 MB(-4%)  Iter   1   80.00%  Align node00:00:01    36 MB(-4%)  Iter   1   90.00%  Align node00:00:01    37 MB(-4%)  Iter   1  100.00%  Align node00:00:01    38 MB(-4%)  Iter   1  100.00%  Align node
+00:00:01    38 MB(-4%)  Iter   1    9.09%  Root alignment00:00:01    38 MB(-4%)  Iter   1   18.18%  Root alignment00:00:01    38 MB(-4%)  Iter   1   27.27%  Root alignment00:00:01    38 MB(-4%)  Iter   1   36.36%  Root alignment00:00:01    38 MB(-4%)  Iter   1   45.45%  Root alignment00:00:01    38 MB(-4%)  Iter   1   54.55%  Root alignment00:00:01    38 MB(-4%)  Iter   1   63.64%  Root alignment00:00:01    38 MB(-4%)  Iter   1   72.73%  Root alignment00:00:01    38 MB(-4%)  Iter   1   81.82%  Root alignment00:00:01    38 MB(-4%)  Iter   1   90.91%  Root alignment00:00:01    38 MB(-4%)  Iter   1  100.00%  Root alignment00:00:01    38 MB(-4%)  Iter   1  100.00%  Root alignment
+00:00:01    38 MB(-4%)  Iter   2   11.11%  Refine tree   00:00:01    38 MB(-4%)  Iter   2   22.22%  Refine tree00:00:01    38 MB(-4%)  Iter   2   33.33%  Refine tree00:00:02    38 MB(-4%)  Iter   2   44.44%  Refine tree00:00:02    38 MB(-4%)  Iter   2  100.00%  Refine tree
+00:00:02    38 MB(-4%)  Iter   2    9.09%  Root alignment00:00:02    38 MB(-4%)  Iter   2   18.18%  Root alignment00:00:02    38 MB(-4%)  Iter   2   27.27%  Root alignment00:00:02    38 MB(-4%)  Iter   2   36.36%  Root alignment00:00:02    38 MB(-4%)  Iter   2   45.45%  Root alignment00:00:02    38 MB(-4%)  Iter   2   54.55%  Root alignment00:00:02    38 MB(-4%)  Iter   2   63.64%  Root alignment00:00:02    38 MB(-4%)  Iter   2   72.73%  Root alignment00:00:02    38 MB(-4%)  Iter   2   81.82%  Root alignment00:00:02    38 MB(-4%)  Iter   2   90.91%  Root alignment00:00:02    38 MB(-4%)  Iter   2  100.00%  Root alignment00:00:02    38 MB(-4%)  Iter   2  100.00%  Root alignment
+00:00:02    38 MB(-4%)  Iter   2  100.00%  Root alignment
+00:00:02    38 MB(-4%)  Iter   3   10.53%  Refine biparts00:00:02    38 MB(-4%)  Iter   3   15.79%  Refine biparts00:00:02    38 MB(-4%)  Iter   3   21.05%  Refine biparts00:00:02    38 MB(-4%)  Iter   3   26.32%  Refine biparts00:00:02    38 MB(-4%)  Iter   3   31.58%  Refine biparts00:00:02    38 MB(-4%)  Iter   3   36.84%  Refine biparts00:00:02    38 MB(-4%)  Iter   3   42.11%  Refine biparts00:00:02    38 MB(-4%)  Iter   3   47.37%  Refine biparts00:00:02    38 MB(-4%)  Iter   3   52.63%  Refine biparts00:00:02    38 MB(-4%)  Iter   3   57.89%  Refine biparts00:00:03    38 MB(-4%)  Iter   3   63.16%  Refine biparts00:00:03    38 MB(-4%)  Iter   3   68.42%  Refine biparts00:00:03    38 MB(-4%)  Iter   3   73.68%  Refine biparts00:00:03    38 MB(-4%)  Iter   3   78.95%  Refine biparts00:00:03    38 MB(-4%)  Iter   3   84.21%  Refine biparts00:00:03    38 MB(-4%)  Iter   3   89.47%  Refine biparts00:00:03    38 MB(-4%)  Iter   3   94.74%  Refine biparts00:00:03    38 MB(-4%)  Iter   3  100.00%  Refine biparts00:00:03    38 MB(-4%)  Iter   3  105.26%  Refine biparts00:00:03    38 MB(-4%)  Iter   3  100.00%  Refine biparts
+00:00:03    38 MB(-4%)  Iter   4   10.53%  Refine biparts00:00:03    38 MB(-4%)  Iter   4   15.79%  Refine biparts00:00:03    38 MB(-4%)  Iter   4   21.05%  Refine biparts00:00:03    38 MB(-4%)  Iter   4   26.32%  Refine biparts00:00:04    38 MB(-4%)  Iter   4   31.58%  Refine biparts00:00:04    38 MB(-4%)  Iter   4   36.84%  Refine biparts00:00:04    38 MB(-4%)  Iter   4   42.11%  Refine biparts00:00:04    38 MB(-4%)  Iter   4   47.37%  Refine biparts00:00:04    38 MB(-4%)  Iter   4   52.63%  Refine biparts00:00:04    38 MB(-4%)  Iter   4   57.89%  Refine biparts00:00:04    38 MB(-4%)  Iter   4   63.16%  Refine biparts00:00:04    38 MB(-4%)  Iter   4   68.42%  Refine biparts00:00:04    38 MB(-4%)  Iter   4   73.68%  Refine biparts00:00:04    38 MB(-4%)  Iter   4   78.95%  Refine biparts00:00:04    38 MB(-4%)  Iter   4   84.21%  Refine biparts00:00:04    38 MB(-4%)  Iter   4   89.47%  Refine biparts00:00:04    38 MB(-4%)  Iter   4   94.74%  Refine biparts00:00:05    38 MB(-4%)  Iter   4  100.00%  Refine biparts00:00:05    38 MB(-4%)  Iter   4  105.26%  Refine biparts00:00:05    38 MB(-4%)  Iter   4  100.00%  Refine biparts
+00:00:05    38 MB(-4%)  Iter   5   10.53%  Refine biparts00:00:05    38 MB(-4%)  Iter   5  100.00%  Refine biparts
+00:00:05    38 MB(-4%)  Iter   5  100.00%  Refine biparts
+
+MUSCLE v3.8.1551 by Robert C. Edgar
+
+http://www.drive5.com/muscle
+This software is donated to the public domain.
+Please cite: Edgar, R.C. Nucleic Acids Res 32(5), 1792-97.
+
+00:00:00    15 MB(-2%)  Reading /home/ejmctavish/projects/otapi/data_physcraper/pg_55_local_new/run_pg_55tree5864_ndhf_run3/original_cleaned.fas
+00:00:00    16 MB(-2%)  87 seqs 2180 cols
+00:00:00    16 MB(-2%)  Reading /home/ejmctavish/projects/otapi/data_physcraper/pg_55_local_new/run_pg_55tree5864_ndhf_run3/new_seqs_aligned_2020-07-24_pg_55tree5864_ndhf.fas
+00:00:00    16 MB(-2%)  11 seqs 2112 cols
+00:00:00    17 MB(-2%)  Aligning profiles
+00:00:00    28 MB(-3%)  Building output
+00:00:00    28 MB(-3%)  Writing output

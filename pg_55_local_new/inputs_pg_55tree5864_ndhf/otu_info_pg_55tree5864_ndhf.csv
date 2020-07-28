@@ -1,0 +1,140 @@
+otu_id	^ot:ottTaxonName	^ot:ottId	^ncbi:taxon	^ncbi:accession	^physcraper:last_blasted	^physcraper:ingroup	^physcraper:status	^ot:originalLabel	^ncbi:title	^physcraper:in_current_aln
+otu376428	Sterculia tragacantha	770769	66668	-	2020/07/24	True	original	Sterculia_tragacantha	-	True
+otu376440	Sterculia stipulata	638563	300530	-	2020/07/24	True	original	Sterculia_stipulata	-	True
+otu376436	Sterculia coccinea	638561	300531	-	2020/07/24	True	original	Sterculia_coccina	-	True
+otu376444	Sterculia parviflora	638557	300533	-	2020/07/24	True	original	Sterculia_parviflora	-	True
+otu376450	Sterculia balanghas	638559	300532	-	2020/07/24	True	original	Sterculia_balanghas	-	True
+otu376432	Hildegardia barteri	336228	82431	-	2020/07/24	True	original	Hildegardia_barteri	-	True
+otu376449	Firmiana malayana	638539	300539	-	2020/07/24	True	original	Firmiana_malayana	-	True
+otu376425	Firmiana platanifolia	283034	190243	-	2020/07/24	True	original	Firmiana_simplex	-	True
+otu376448	Hildegardia populifolia	269830	300540	-	2020/07/24	True	original	Hildegardia_populifolia	-	True
+otu376433	Pterocymbium tinctorium	269825	300542	-	2020/07/24	True	original	Pterocymbium_tinctorium	-	True
+otu376451	Scaphium macropodum	269827	300543	-	2020/07/24	True	original	Scaphium_macropodum_B	-	True
+otu376434	Scaphium linearicarpum	269821	300544	-	2020/07/24	True	original	Scaphium_linearicarpum	-	True
+otu376426	Scaphium macropodum	269827	300543	-	2020/07/24	True	original	Scaphium_macropodum_A	-	True
+otu376437	Cola acuminata	1053097	93760	-	2020/07/24	True	original	Cola_acuminata	-	True
+otu376438	Pterygota alata	793342	300553	-	2020/07/24	True	original	Pterygota_alata	-	True
+otu376447	Octolobus spectabilis	536207	300538	-	2020/07/24	True	original	Octolobus_spectabilis	-	True
+otu376442	Acropogon bullatus	269819	300547	-	2020/07/24	True	original	Acropogon_bullatus	-	True
+otu376429	Acropogon dzumacensis	269817	300546	-	2020/07/24	True	original	Acropogon_dzumacensis	-	True
+otu376443	Franciscodendron laurifolium	793340	300551	-	2020/07/24	True	original	Franciscodendron_laurifolium	-	True
+otu376431	Argyrodendron peralatum	269815	300549	-	2020/07/24	True	original	Argyrodendron_peralatum	-	True
+otu376453	Brachychiton acerifolius	5551	93745	-	2020/07/24	True	original	Brachychiton_acerifolius_B	-	True
+otu376441	Brachychiton acerifolius	5551	93745	-	2020/07/24	True	original	Brachychiton_acerifolius_A	-	True
+otu376445	Heritiera elata	536243	300536	-	2020/07/24	True	original	Heritiera_elata	-	True
+otu376454	Heritiera littoralis	108610	93780	-	2020/07/24	True	original	Heritiera_littoralis	-	True
+otu376427	Heritiera simplicifolia	638569	300534	-	2020/07/24	True	original	Heritiera_simplicifolia	-	True
+otu376435	Heritiera aurea	638567	300535	-	2020/07/24	True	original	Heritiera_aurea_A	-	True
+otu376446	Heritiera aurea	638567	300535	-	2020/07/24	True	original	Heritiera_aurea_B	-	True
+otu376430	Ochroma pyramidale	861917	66662	-	None	False	original	Ochroma_pyramidale	-	True
+otu376420	Bombax buonopozense	312752	66654	-	None	False	original	Bombax_buonopozense	-	True
+otu376439	Pachira aquatica	84784	69118	-	None	False	original	Pachira_aquatica	-	True
+otu376452	Spirotheca rosea	578275	93754	-	None	False	original	Ceiba_rosea	-	True
+otuPS1	Pterygota alata	793342	300553	AY795599.1	None	True	identical and/or subsequence of otu376438, not added	-	Pterygota alata NADH dehydrogenase (ndhF) gene, partial cds; chloroplast	False
+otuPS2	Octolobus spectabilis	536207	300538	AY795586.1	None	True	identical and/or subsequence of otu376447, not added	-	Octolobus spectabilis NADH dehydrogenase (ndhF) gene, partial cds; chloroplast	False
+otuPS3	Scaphium macropodum	269827	300543	AY795593.1	None	True	identical and/or subsequence of otu376426, not added	-	Scaphium macropodum voucher P. Wilkie PW16 E NADH dehydrogenase (ndhF) gene, partial cds; chloroplast	False
+otuPS4	Scaphium linearicarpum	269821	300544	AY795592.1	None	True	identical and/or subsequence of otu376434, not added	-	Scaphium linearicarpum NADH dehydrogenase (ndhF) gene, partial cds; chloroplast	False
+otuPS5	Acropogon dzumacensis	269817	300546	AY795595.1	None	True	identical and/or subsequence of otu376429, not added	-	Acropogon dzumacensis NADH dehydrogenase (ndhF) gene, partial cds; chloroplast	False
+otuPS6	Cola acuminata	1053097	93760	AF111759.1	None	True	identical and/or subsequence of otu376437, not added	-	Cola acuminata NADH dehydrogenase (ndhF) gene, partial cds; chloroplast gene for chloroplast product	False
+otuPS7	Franciscodendron laurifolium	793340	300551	AY795598.1	None	True	identical and/or subsequence of otu376443, not added	-	Franciscodendron laurifolium NADH dehydrogenase (ndhF) gene, partial cds; chloroplast	False
+otuPS8	Brachychiton acerifolius	5551	93745	AF111748.1	None	True	identical and/or subsequence of otu376453, not added	-	Brachychiton acerifolius NADH dehydrogenase (ndhF) gene, partial cds; chloroplast gene for chloroplast product	False
+otuPS9	Acropogon bullatus	269819	300547	AY795596.1	None	True	identical and/or subsequence of otu376442, not added	-	Acropogon bullatus NADH dehydrogenase (ndhF) gene, partial cds; chloroplast	False
+otuPS10	Argyrodendron peralatum	269815	300549	AY795597.1	None	True	identical and/or subsequence of otu376431, not added	-	Argyrodendron peralatum NADH dehydrogenase (ndhF) gene, partial cds; chloroplast	False
+otuPS11	Septotheca tessmannii	595902	289063	AY589082.1	2020/07/24	True	new	-	Septotheca tessmannii NADH dehydrogenase (ndhF) gene, partial cds; chloroplast	True
+otuPS12	Brachychiton acerifolius	5551	93745	AY795594.1	None	True	identical and/or subsequence of otu376441, not added	-	Brachychiton acerifolius NADH dehydrogenase (ndhF) gene, partial cds; chloroplast	False
+otuPS13	Fremontodendron californicum	827914	93767	AF111721.1	2020/07/24	True	new	-	Fremontodendron californicum NADH dehydrogenase (ndhF) gene, partial cds; chloroplast gene for chloroplast product	True
+otuPS14	Firmiana simplex	283034	190243	AY795589.1	None	True	identical and/or subsequence of otu376425, not added	-	Firmiana platanifolia NADH dehydrogenase (ndhF) gene, partial cds; chloroplast	False
+otuPS15	Pterocymbium tinctorium	269825	300542	AY795590.1	None	True	identical and/or subsequence of otu376433, not added	-	Pterocymbium tinctorium NADH dehydrogenase (ndhF) gene, partial cds; chloroplast	False
+otuPS16	Scaphium macropodum	269827	300543	AY795591.1	None	True	identical and/or subsequence of otu376451, not added	-	Scaphium macropodum voucher P. Wilkie PW111 E NADH dehydrogenase (ndhF) gene, partial cds; chloroplast	False
+otuPS17	Hildegardia populifolia	269830	300540	AY795588.1	None	True	identical and/or subsequence of otu376448, not added	-	Hildegardia populifolia NADH dehydrogenase (ndhF) gene, partial cds; chloroplast	False
+otuPS18	Firmiana malayana	638539	300539	AY795587.1	None	True	identical and/or subsequence of otu376449, not added	-	Firmiana malayana NADH dehydrogenase (ndhF) gene, partial cds; chloroplast	False
+otuPS19	Hildegardia barteri	336228	82431	AF111754.1	None	True	identical and/or subsequence of otu376432, not added	-	Hildegardia barteri NADH dehydrogenase (ndhF) gene, partial cds; chloroplast gene for chloroplast product	False
+otuPS20	Heritiera elata	536243	300536	AY795585.1	None	True	identical and/or subsequence of otu376445, not added	-	Heritiera elata NADH dehydrogenase (ndhF) gene, partial cds; chloroplast	False
+otuPS21	Heritiera littoralis	108610	93780	AF111744.1	None	True	identical and/or subsequence of otu376454, not added	-	Heritiera littoralis NADH dehydrogenase (ndhF) gene, partial cds; chloroplast gene for chloroplast product	False
+otuPS22	Heritiera aurea	638567	300535	AY795583.1	None	True	identical and/or subsequence of otu376435, not added	-	Heritiera aurea voucher P. Wilkie PW37 E NADH dehydrogenase (ndhF) gene, partial cds; chloroplast	False
+otuPS23	Heritiera aurea	638567	300535	AY795584.1	None	True	identical and/or subsequence of otu376446, not added	-	Heritiera aurea voucher P. Wilkie PW43 E NADH dehydrogenase (ndhF) gene, partial cds; chloroplast	False
+otuPS24	Heritiera simplicifolia	638569	300534	AY795582.1	None	True	identical and/or subsequence of otu376427, not added	-	Heritiera simplicifolia NADH dehydrogenase (ndhF) gene, partial cds; chloroplast	False
+otuPS25	Sterculia parviflora	638557	300533	AY795581.1	None	True	identical and/or subsequence of otu376444, not added	-	Sterculia parviflora NADH dehydrogenase (ndhF) gene, partial cds; chloroplast	False
+otuPS26	Sterculia coccinea	638561	300531	AY795579.1	None	True	identical and/or subsequence of otu376436, not added	-	Sterculia coccinea NADH dehydrogenase (ndhF) gene, partial cds; chloroplast	False
+otuPS27	Sterculia stipulata	638563	300530	AY795578.1	None	True	identical and/or subsequence of otu376440, not added	-	Sterculia stipulata NADH dehydrogenase (ndhF) gene, partial cds; chloroplast	False
+otuPS28	Sterculia tragacantha	770769	66668	AF111747.1	2020/07/24	True	new	-	Sterculia tragacantha NADH dehydrogenase (ndhF) gene, partial cds; chloroplast gene for chloroplast product	True
+otuPS29	Macrostelia laurina	524603	439926	EF207299.1	2020/07/24	True	new	-	Macrostelia laurina NADH dehydrogenase gene, partial cds; chloroplast	True
+otuPS30	Kokia cookei	3942627	1962115	KY569595.1	2020/07/24	True	new	-	Kokia cookei voucher WBG:75C238 NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast	True
+otuPS31	Kokia drynarioides	659000	47617	KY569597.1	2020/07/24	True	new	-	Kokia drynarioides voucher HAW:Morden1196 NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast	True
+otuPS32	Kokia kauaiensis	200325	47620	KY569596.1	2020/07/24	True	new	-	Kokia kauaiensis voucher HLA:L93.0403 NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast	True
+otuPS33	Sterculia balanghas	638559	300532	AY795580.1	None	True	identical and/or subsequence of otu376450, not added	-	Sterculia balanghas NADH dehydrogenase (ndhF) gene, partial cds; chloroplast	False
+otuPS34	Cephalohibiscus peekelii	5922473	1833791	KT967003.1	2020/07/24	True	new	-	Cephalohibiscus peekelii voucher Regalado and Katik 1192 (GH) NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast	True
+otuPS35	Hibiscus tozerensis	642479	183276	EF207301.1	2020/07/24	True	new	-	Hibiscus tozerensis NADH dehydrogenase gene, partial cds; chloroplast	True
+otuPS36	Hibiscus bojerianus	474375	439906	EF207306.1	2020/07/24	True	new	-	Hibiscus bojerianus NADH dehydrogenase gene, partial cds; chloroplast	True
+otuPS37	Hibiscus dongolensis	538376	183238	EF207303.1	2020/07/24	True	new	-	Hibiscus dongolensis NADH dehydrogenase gene, partial cds; chloroplast	True
+otuPS38	Quararibea costaricensis	682925	93795	AF111723.1	2020/07/24	True	new	-	Quararibea costaricensis NADH dehydrogenase (ndhF) gene, partial cds; chloroplast gene for chloroplast product	True
+otuPS39	Ochroma pyramidale	861917	66662	AF111740.1	2020/07/24	True	new	-	Ochroma pyramidale NADH dehydrogenase (ndhF) gene, partial cds; chloroplast gene for chloroplast product	True
+otuPS40	Catostemma fragrans	5545	93749	AF111734.1	2020/07/24	True	new	-	Catostemma fragrans NADH dehydrogenase (ndhF) gene, partial cds; chloroplast gene for chloroplast product	True
+otuPS41	Matisia cordata	433616	82384	AF111724.1	2020/07/24	True	new	-	Matisia cordata NADH dehydrogenase (ndhF) gene, partial cds; chloroplast gene for chloroplast product	True
+otuPS42	Ceiba crispiflora	187562	93757	AF111730.1	2020/07/24	True	new	-	Chorisia crispiflora NADH dehydrogenase (ndhF) gene, partial cds; chloroplast gene for chloroplast product	True
+otuPS43	Uladendron codesuri	595898	289061	AY589080.1	2020/07/24	True	new	-	Uladendron codesuri NADH dehydrogenase (ndhF) gene, partial cds; chloroplast	True
+otuPS44	Chiranthodendron pentadactylon	578280	93756	AF111722.1	2020/07/24	True	new	-	Chiranthodendron pentadactylon NADH dehydrogenase (ndhF) gene, partial cds; chloroplast gene for chloroplast product	True
+otuPS45	Ceiba acuminata	578281	93753	AF111736.1	2020/07/24	True	new	-	Ceiba acuminata NADH dehydrogenase (ndhF) gene, partial cds; chloroplast gene for chloroplast product	True
+otuPS46	Lebronnecia kokioides	658990	47610	KT967002.1	2020/07/24	True	new	-	Lebronnecia kokioides voucher Ackerman et al. 4538 (UPRRP) NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast	True
+otuPS47	Hampea nutricia	5922475	1833794	KT967006.1	2020/07/24	True	new	-	Hampea nutricia voucher Ibarra Manriquez 5373 (MO) NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast	True
+otuPS48	Thespesia lampas	658984	47619	KT967005.1	2020/07/24	True	new	-	Thespesia lampas voucher Balick and Nanakorn 3440 (MO) NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast	True
+otuPS49	Thespesia gummiflua	5922484	1833804	KT967019.1	2020/07/24	True	new	-	Thespesia gummiflua voucher Ramananjanahary et al. 31 (MO) NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast	True
+otuPS50	Thespesia acutiloba	5233046	1237834	KT967016.1	2020/07/24	True	new seq added; identical and/or subsequence of otuPS49, but different taxon	-	Thespesia acutiloba voucher Styles 2689 (NH) NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast	True
+otuPS51	Thespesia thespesioides	658988	47611	KT967004.1	2020/07/24	True	new	-	Thespesia thespesioides voucher Cowie and Wendell 4233 (CANB) NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast	True
+otuPS52	Lebronnecia kokioides	658990	47610	U55325.1	2020/07/24	True	new	-	Lebronnecia kokioides NADH dehydrogenase (ndhF) gene, partial cds; chloroplast gene for chloroplast product	True
+otuPS53	Thespesia patellifera	5922485	1833805	KT967025.1	2020/07/24	True	new	-	Thespesia patellifera voucher Croft et al. LAE 68767 (L) NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast	True
+otuPS54	Thespesia danis	5762413	1833801	KT967015.1	2020/07/24	True	new	-	Thespesia danis voucher Mwangoka and Maingo 1333 (MO) NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast	True
+otuPS55	Kokia kauaiensis	200325	47620	KT967000.1	2020/07/24	True	new	-	Kokia kauaiensis voucher Ackerman et al. 4542 (UPRRP) NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast	True
+otuPS56	Kokia drynarioides	659000	47617	U55330.1	2020/07/24	True	new	-	Kokia drynarioides NADH dehydrogenase (ndhF) gene, partial cds; chloroplast gene for chloroplast product	True
+otuPS57	Gossypioides kirkii	658994	47615	U55329.1	2020/07/24	True	new	-	Gossypioides kirkii NADH dehydrogenase (ndhF) gene, partial cds; chloroplast gene for chloroplast product	True
+otuPS58	Gossypium longicalyx	209811	34280	U55338.1	2020/07/24	True	new	-	Gossypium longicalyx NADH dehydrogenase (ndhF) gene, partial cds; chloroplast gene for chloroplast product	True
+otuPS59	Hampea mexicana	5922474	1833793	KT967007.1	2020/07/24	True	new	-	Hampea mexicana voucher Martinez and Aguilar 36537 (MO) NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast	True
+otuPS60	Hampea appendiculata	552292	47613	U55327.1	2020/07/24	True	new	-	Hampea appendiculata NADH dehydrogenase (ndhF) gene, partial cds; chloroplast gene for chloroplast product	True
+otuPS61	Hampea appendiculata	552292	47613	AY589077.1	None	True	identical and/or subsequence of otuPS60, not added	-	Hampea appendiculata NADH dehydrogenase (ndhF) gene, partial cds; chloroplast	False
+otuPS62	Hampea trilobata	5922476	1833795	KT967008.1	2020/07/24	True	new	-	Hampea trilobata voucher Christenhusz and Trejo 6073 (BM) NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast	True
+otuPS63	Thespesia cubensis	5922481	1833800	KT967013.1	2020/07/24	True	new	-	Thespesia cubensis voucher Gonzalez 1202-6 (HAJB, UPRRP) NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast	True
+otuPS64	Thespesia grandiflora	3942633	1465376	KT967012.1	2020/07/24	True	new	-	Thespesia grandiflora voucher Areces and Vega 761 (UPRRP) NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast	True
+otuPS65	Thespesia grandiflora	3942633	1465376	KT967011.1	None	True	identical and/or subsequence of otuPS64, not added	-	Thespesia grandiflora voucher Areces et al. 604 (UPRRP) NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast	False
+otuPS66	Thespesia populneoides	5762412	1382019	KT967024.1	2020/07/24	True	new	-	Thespesia populneoides voucher Kanis 1987 (MO) NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast	True
+otuPS67	Thespesia cubensis	5922481	1833800	KT967014.1	2020/07/24	True	new	-	Thespesia cubensis voucher Berazain et al. HFC 87787 (HAJB) NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast	True
+otuPS68	Thespesia beatensis	5922480	1833799	KT967010.1	2020/07/24	True	new	-	Thespesia beatensis voucher Areces et al. 582 (UPRRP) NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast	True
+otuPS69	Thespesia thespesioides	658988	47611	U55326.1	2020/07/24	True	new	-	Thespesia thespesioides NADH dehydrogenase (ndhF) gene, partial cds; chloroplast gene for chloroplast product	True
+otuPS70	Kosteletzkya pentacarpos	504131	69161	EF207288.1	2020/07/24	True	new	-	Kosteletzkya virginica NADH dehydrogenase gene, partial cds; chloroplast	True
+otuPS71	Hibiscus syriacus	930407	106335	EF207302.1	2020/07/24	True	new	-	Hibiscus syriacus NADH dehydrogenase gene, partial cds; chloroplast	True
+otuPS72	Hibiscus mandrarensis	1050798	439912	EF207305.1	2020/07/24	True	new	-	Hibiscus mandrarensis NADH dehydrogenase gene, partial cds; chloroplast	True
+otuPS73	Megistostegium microphyllum	524607	439928	EF207309.1	2020/07/24	True	new	-	Megistostegium microphyllum NADH dehydrogenase gene, partial cds; chloroplast	True
+otuPS74	Perrierophytum humbertii	3195	439931	EF207315.1	2020/07/24	True	new	-	Perrierophytum humbertii NADH dehydrogenase gene, partial cds; chloroplast	True
+otuPS75	Megistostegium perrieri	524605	439929	EF207308.1	2020/07/24	True	new	-	Megistostegium perrieri NADH dehydrogenase gene, partial cds; chloroplast	True
+otuPS76	Perrierophytum rubrum	3190	439932	EF207316.1	2020/07/24	True	new	-	Perrierophytum rubrum NADH dehydrogenase gene, partial cds; chloroplast	True
+otuPS77	Kosteletzkya diplocrater	524589	439921	EF207307.1	2020/07/24	True	new	-	Kosteletzkya diplocrater NADH dehydrogenase gene, partial cds; chloroplast	True
+otuPS78	Papuodendron lepidotum	629972	117670	AF230247.1	2020/07/24	True	new	-	Papuodendron lepidotum NADH dehydrogenase (ndhF) gene, partial cds; chloroplast gene for chloroplast product	True
+otuPS79	Talipariti hamabo	554954	280641	EF207292.1	2020/07/24	True	new	-	Hibiscus hamabo NADH dehydrogenase gene, partial cds; chloroplast	True
+otuPS80	Bombax buonopozense	312752	66654	AF111726.1	2020/07/24	True	new	-	Bombax buonopozense NADH dehydrogenase (ndhF) gene, partial cds; chloroplast gene for chloroplast product	True
+otuPS81	Cavanillesia platanifolia	187570	93751	AF111728.1	2020/07/24	True	new	-	Cavanillesia platanifolia NADH dehydrogenase (ndhF) gene, partial cds; chloroplast gene for chloroplast product	True
+otuPS82	Camptostemon schultzii	236636	66658	AF111727.1	2020/07/24	True	new	-	Camptostemon schultzii NADH dehydrogenase (ndhF) gene, partial cds; chloroplast gene for chloroplast product	True
+otuPS83	Radyera farragei	273639	183280	AY589078.1	2020/07/24	True	new	-	Radyera farragei NADH dehydrogenase (ndhF) gene, partial cds; chloroplast	True
+otuPS84	Phragmotheca ecuadorensis	682924	93792	AF111725.1	2020/07/24	True	new	-	Phragmotheca ecuadorensis NADH dehydrogenase (ndhF) gene, partial cds; chloroplast gene for chloroplast product	True
+otuPS85	Gossypium barbadense	854476	3634	U55339.1	2020/07/24	True	new	-	Gossypium barbadense NADH dehydrogenase (ndhF) gene, partial cds; chloroplast gene for chloroplast product	True
+otuPS86	Thespesia populnea	854467	3638	KT967023.1	2020/07/24	True	new	-	Thespesia populnea voucher Areces and Vega 668 (UPRRP) NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast	True
+otuPS87	Thespesia populnea	854467	3638	KT967022.1	None	True	identical and/or subsequence of otuPS86, not added	-	Thespesia populnea voucher Santamaria 8868 (INB) NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast	False
+otuPS88	Thespesia populnea	854467	3638	KT967021.1	None	True	identical and/or subsequence of otuPS86, not added	-	Thespesia populnea voucher Gonzalez 1202-1 (HAJB, UPRRP) NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast	False
+otuPS89	Thespesia populnea	854467	3638	KT967020.1	None	True	identical and/or subsequence of otuPS86, not added	-	Thespesia populnea voucher Ackerman et al. 4537 (UPRRP) NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast	False
+otuPS90	Thespesia beatensis	5922480	1833799	KT967009.1	None	True	identical and/or subsequence of otuPS68, not added	-	Thespesia beatensis voucher Areces et al. 577 (JBSD, UPRRP) NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast	False
+otuPS91	Talipariti tiliaceum var. tiliaceum	7057672	2038163	KX984270.1	2020/07/24	True	new	-	Talipariti tiliaceum var. tiliaceum voucher Ackerman et al. 4539 (UPRRP) NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast	True
+otuPS92	Decaschistia byrnesii	23119	289059	AY589079.1	2020/07/24	True	new	-	Decaschistia byrnesii NADH dehydrogenase (ndhF) gene, partial cds; chloroplast	True
+otuPS93	Urena lobata	485925	263848	KT967033.1	2020/07/24	True	new	-	Urena lobata voucher Areces et al. 608 (UPRRP) NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast	True
+otuPS94	Urena lobata	485925	263848	EF207291.1	2020/07/24	True	new	-	Urena lobata NADH dehydrogenase gene, partial cds; chloroplast	True
+otuPS95	Pavonia multiflora	192100	70568	AF111719.1	2020/07/24	True	new	-	Pavonia multiflora NADH dehydrogenase (ndhF) gene, partial cds; chloroplast gene for chloroplast product	True
+otuPS96	Thepparatia thailandica	5922479	1833798	KT967027.1	2020/07/24	True	new	-	Thepparatia thailandica voucher Pooma s.n. (UPRRP) NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast	True
+otuPS97	Kosteletzkya velutina	524593	439923	EF207313.1	2020/07/24	True	new	-	Kosteletzkya velutina NADH dehydrogenase gene, partial cds; chloroplast	True
+otuPS98	Jumelleanthus perrieri	524591	439920	EF207304.1	2020/07/24	True	new	-	Jumelleanthus perrieri NADH dehydrogenase gene, partial cds; chloroplast	True
+otuPS99	Hibiscus macrogonus	1050796	439911	EF562456.1	2020/07/24	True	new seq added; identical and/or subsequence of otuPS36, but different taxon	-	Hibiscus macrogonus NADH dehydrogenase gene, partial cds; chloroplast	True
+otuPS100	Malvaviscus arboreus	108599	93788	AF111718.1	2020/07/24	True	new	-	Malvaviscus arboreus NADH dehydrogenase (ndhF) gene, partial cds; chloroplast gene for chloroplast product	True
+otuPS101	Malvaviscus penduliflorus	850266	1181298	KT967032.1	2020/07/24	True	new	-	Malvaviscus penduliflorus voucher Areces and Vega 925 (UPRRP) NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast	True
+otuPS102	Pavonia spinifex	463285	301890	KT967030.1	2020/07/24	True	new	-	Pavonia spinifex voucher Areces et al. 602 (UPRRP) NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast	True
+otuPS103	Pavonia fruticosa	3942679	1833796	KT967029.1	2020/07/24	True	new	-	Pavonia fruticosa voucher Areces et al. 605 (UPRRP) NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast	True
+otuPS104	Malachra radiata	3942630	1475422	KT967031.1	2020/07/24	True	new	-	Malachra radiata voucher Moran 8724 and Areces (INB) NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast	True
+otuPS105	Anotea flavida	84580	47604	U55322.1	2020/07/24	True	new	-	Anotea flavida NADH dehydrogenase (ndhF) gene, partial cds; chloroplast gene for chloroplast product	True
+otuPS106	Kosteletzkya reflexiflora	524595	439922	EF207314.1	2020/07/24	True	new	-	Kosteletzkya reflexiflora NADH dehydrogenase gene, partial cds; chloroplast	True
+otuPS107	Hibiscus costatus	84576	47606	U55323.1	2020/07/24	True	new	-	Hibiscus costatus NADH dehydrogenase (ndhF) gene, partial cds; chloroplast gene for chloroplast product	True
+otuPS108	Hibiscus sabdariffa	120930	183260	KX984266.1	2020/07/24	True	new	-	Hibiscus sabdariffa voucher Areces 929 (UPRRP) NADH dehydrogenase subunit F (ndhF) gene, partial cds; chloroplast	True
