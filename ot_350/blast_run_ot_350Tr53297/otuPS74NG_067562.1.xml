@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.10.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_38735</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>846</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_38735</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>846</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1806593682|ref|NG_067562.1|</Hit_id>
+  <Hit_def>Chloridium aseptatum MFLU 11-1051 28S rRNA gene, partial sequence; from TYPE material</Hit_def>
+  <Hit_accession>NG_067562</Hit_accession>
+  <Hit_len>846</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1526.94</Hsp_bit-score>
+      <Hsp_score>1692</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>846</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>846</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>846</Hsp_identity>
+      <Hsp_positive>846</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>846</Hsp_align-len>
+      <Hsp_qseq>CAACAGGGATTGCCCTAGTAACGGCGAGTGAAGCGGCAACAGCTCAAATTTGAAATCTGGCCCTAGGCCCGAGTTGTAATTTGCAGAGGATGCTTCGGGCGCGGTGCCTTCCAAGTCCCCTGGAACGGGGCGCCGGAGAGGGTGAGAGCCCCGTACGGTTGGCGGCCAAGCCTGTGTGAAGCTCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCTAAGCGGGAGGTAGACCCCTTCTAAAGCTAAATATAGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAATAGCACGTGAAATTGTTGAAAGGGAAGCGCTTGTGACCAGACGTGCGCCGGGGTGTTCAGCGGGCGTTCTCGCCCGTGCACTCGCCTCGGCGCAGGCCAGCGTCGGTTCGAGTGGGAGGATAAAGGCGTCTGGAATGTGGCTCCTCCGGGAGTGTTATAGCCAGACGTGCCATGCTCCCGCCCGGACCGAGGTACGCGTTCTGCAAGGACGCTGGCGTAATGGTCTCCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCGAGGTTTTGCGCGAGTGTTTGGGTGTTAAACCCGCACGCGTAATGAAAGTGAACGTAGGTGGGAGCTTCGGCGCACCACCGACCGATCCTGATGTTTTCGGATGGATTTGAGTAAGAGCGTAGGGCCTCGGACCCGAAAGATGGTGAACTATGCTTGGATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATCTGAGCATGGGGCGAAAGACTAATCGAACCATCTA</Hsp_qseq>
+      <Hsp_hseq>CAACAGGGATTGCCCTAGTAACGGCGAGTGAAGCGGCAACAGCTCAAATTTGAAATCTGGCCCTAGGCCCGAGTTGTAATTTGCAGAGGATGCTTCGGGCGCGGTGCCTTCCAAGTCCCCTGGAACGGGGCGCCGGAGAGGGTGAGAGCCCCGTACGGTTGGCGGCCAAGCCTGTGTGAAGCTCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCTAAGCGGGAGGTAGACCCCTTCTAAAGCTAAATATAGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAATAGCACGTGAAATTGTTGAAAGGGAAGCGCTTGTGACCAGACGTGCGCCGGGGTGTTCAGCGGGCGTTCTCGCCCGTGCACTCGCCTCGGCGCAGGCCAGCGTCGGTTCGAGTGGGAGGATAAAGGCGTCTGGAATGTGGCTCCTCCGGGAGTGTTATAGCCAGACGTGCCATGCTCCCGCCCGGACCGAGGTACGCGTTCTGCAAGGACGCTGGCGTAATGGTCTCCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCGAGGTTTTGCGCGAGTGTTTGGGTGTTAAACCCGCACGCGTAATGAAAGTGAACGTAGGTGGGAGCTTCGGCGCACCACCGACCGATCCTGATGTTTTCGGATGGATTTGAGTAAGAGCGTAGGGCCTCGGACCCGAAAGATGGTGAACTATGCTTGGATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATCTGAGCATGGGGCGAAAGACTAATCGAACCATCTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1434151081|gb|MH476568.1|</Hit_id>
+  <Hit_def>Chloridium aseptatum isolate MFLU11-1051 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MH476568</Hit_accession>
+  <Hit_len>846</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1526.94</Hsp_bit-score>
+      <Hsp_score>1692</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>846</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>846</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>846</Hsp_identity>
+      <Hsp_positive>846</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>846</Hsp_align-len>
+      <Hsp_qseq>CAACAGGGATTGCCCTAGTAACGGCGAGTGAAGCGGCAACAGCTCAAATTTGAAATCTGGCCCTAGGCCCGAGTTGTAATTTGCAGAGGATGCTTCGGGCGCGGTGCCTTCCAAGTCCCCTGGAACGGGGCGCCGGAGAGGGTGAGAGCCCCGTACGGTTGGCGGCCAAGCCTGTGTGAAGCTCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCTAAGCGGGAGGTAGACCCCTTCTAAAGCTAAATATAGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAATAGCACGTGAAATTGTTGAAAGGGAAGCGCTTGTGACCAGACGTGCGCCGGGGTGTTCAGCGGGCGTTCTCGCCCGTGCACTCGCCTCGGCGCAGGCCAGCGTCGGTTCGAGTGGGAGGATAAAGGCGTCTGGAATGTGGCTCCTCCGGGAGTGTTATAGCCAGACGTGCCATGCTCCCGCCCGGACCGAGGTACGCGTTCTGCAAGGACGCTGGCGTAATGGTCTCCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCGAGGTTTTGCGCGAGTGTTTGGGTGTTAAACCCGCACGCGTAATGAAAGTGAACGTAGGTGGGAGCTTCGGCGCACCACCGACCGATCCTGATGTTTTCGGATGGATTTGAGTAAGAGCGTAGGGCCTCGGACCCGAAAGATGGTGAACTATGCTTGGATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATCTGAGCATGGGGCGAAAGACTAATCGAACCATCTA</Hsp_qseq>
+      <Hsp_hseq>CAACAGGGATTGCCCTAGTAACGGCGAGTGAAGCGGCAACAGCTCAAATTTGAAATCTGGCCCTAGGCCCGAGTTGTAATTTGCAGAGGATGCTTCGGGCGCGGTGCCTTCCAAGTCCCCTGGAACGGGGCGCCGGAGAGGGTGAGAGCCCCGTACGGTTGGCGGCCAAGCCTGTGTGAAGCTCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCTAAGCGGGAGGTAGACCCCTTCTAAAGCTAAATATAGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAATAGCACGTGAAATTGTTGAAAGGGAAGCGCTTGTGACCAGACGTGCGCCGGGGTGTTCAGCGGGCGTTCTCGCCCGTGCACTCGCCTCGGCGCAGGCCAGCGTCGGTTCGAGTGGGAGGATAAAGGCGTCTGGAATGTGGCTCCTCCGGGAGTGTTATAGCCAGACGTGCCATGCTCCCGCCCGGACCGAGGTACGCGTTCTGCAAGGACGCTGGCGTAATGGTCTCCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCGAGGTTTTGCGCGAGTGTTTGGGTGTTAAACCCGCACGCGTAATGAAAGTGAACGTAGGTGGGAGCTTCGGCGCACCACCGACCGATCCTGATGTTTTCGGATGGATTTGAGTAAGAGCGTAGGGCCTCGGACCCGAAAGATGGTGAACTATGCTTGGATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATCTGAGCATGGGGCGAAAGACTAATCGAACCATCTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1473263630|gb|MH876574.1|</Hit_id>
+  <Hit_def>Chloridium virescens strain CBS 128850 large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MH876574</Hit_accession>
+  <Hit_len>894</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1520.62</Hsp_bit-score>
+      <Hsp_score>1685</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>846</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>875</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>846</Hsp_identity>
+      <Hsp_positive>846</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>847</Hsp_align-len>
+      <Hsp_qseq>CAACAGGGATTGCCCTAGTAACGGCGAGTGAAGCGGCAACAGCTCAAATTTGAAATCTGGCCCTAGGCCCGAGTTGTAATTTGCAGAGGATGCTTCGGGCGCGGTGCCTTCCAAGTCCCCTGGAACGGGGCGCCGGAGAGGGTGAGAGCCCCGTACGGTTGGCGGCCAAGCCTGTGTGAAGCTCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCTAAGCGGGAGGTAGACCCCTTCTAAAGCTAAATATAGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAATAGCACGTGAAATTGTTGAAAGGGAAGCGCTTGTGACCAGACGTGCGCCGGGGTGTTCAGCGGGCGTTCTCGCCCGTGCACTCGCCTCGGCGCAGGCCAGCGTCGGTTCGAGTGGGAGGATAAAGGCGTCTGGAATGTGGCTCCTCCGGGAGTGTTATAGCCAGACGTGCCATGCTCCCGCCCGGACCGAGGTACGCGTTCTGCAAGGACGCTGGCGTAATGGTCTCCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCGAGGTTTTGCGCGAGTGTTTGGGTGTTAAACCCGCACGCGTAATGAAAGTGAACGTAGGTGGGAGCTTCGGCGCACCACCGACCGATCCTGATGTTTTCGGATGGATTTGAGTAAGAGCGTAGGGCCTCGGACCCGAAAGATGGTGAACTATGCTTGGATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATCTGAGCAT-GGGGCGAAAGACTAATCGAACCATCTA</Hsp_qseq>
+      <Hsp_hseq>CAACAGGGATTGCCCTAGTAACGGCGAGTGAAGCGGCAACAGCTCAAATTTGAAATCTGGCCCTAGGCCCGAGTTGTAATTTGCAGAGGATGCTTCGGGCGCGGTGCCTTCCAAGTCCCCTGGAACGGGGCGCCGGAGAGGGTGAGAGCCCCGTACGGTTGGCGGCCAAGCCTGTGTGAAGCTCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCTAAGCGGGAGGTAGACCCCTTCTAAAGCTAAATATAGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAATAGCACGTGAAATTGTTGAAAGGGAAGCGCTTGTGACCAGACGTGCGCCGGGGTGTTCAGCGGGCGTTCTCGCCCGTGCACTCGCCTCGGCGCAGGCCAGCGTCGGTTCGAGTGGGAGGATAAAGGCGTCTGGAATGTGGCTCCTCCGGGAGTGTTATAGCCAGACGTGCCATGCTCCCGCCCGGACCGAGGTACGCGTTCTGCAAGGACGCTGGCGTAATGGTCTCCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCGAGGTTTTGCGCGAGTGTTTGGGTGTTAAACCCGCACGCGTAATGAAAGTGAACGTAGGTGGGAGCTTCGGCGCACCACCGACCGATCCTGATGTTTTCGGATGGATTTGAGTAAGAGCGTAGGGCCTCGGACCCGAAAGATGGTGAACTATGCTTGGATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATCTGAGCATGGGGGCGAAAGACTAATCGAACCATCTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1548884466|gb|MK372067.1|</Hit_id>
+  <Hit_def>Chloridium sp. KW-2019a isolate HGUP1805 large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MK372067</Hit_accession>
+  <Hit_len>884</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1520.62</Hsp_bit-score>
+      <Hsp_score>1685</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>846</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>868</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>846</Hsp_identity>
+      <Hsp_positive>846</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>847</Hsp_align-len>
+      <Hsp_qseq>CAACAGGGATTGCCCTAGTAACGGCGAGTGAAGCGGCAACAGCTCAAATTTGAAATCTGGCCCTAGGCCCGAGTTGTAATTTGCAGAGGATGCTTCGGGCGCGGTGCCTTCCAAGTCCCCTGGAACGGGGCGCCGGAGAGGGTGAGAGCCCCGTACGGTTGGCGGCCAAGCCTGTGTGAAGCTCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCTAAGCGGGAGGTAGACCCCTTCTAAAGCTAAATATAGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAATAGCACGTGAAATTGTTGAAAGGGAAGCGCTTGTGACCAGACGTGCGCCGGGGTGTTCAGCGGGCGTTCTCGCCCGTGCACTCGCCTCGGCGCAGGCCAGCGTCGGTTCGAGTGGGAGGATAAAGGCGTCTGGAATGTGGCTCCTCCGGGAGTGTTATAGCCAGACGTGCCATGCTCCCGCCCGGACCGAGGTACGCGTTCTGCAAGGACGCTGGCGTAATGGTCTCCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCGAGGTTTTGCGCGAGTGTTTGGGTGTTAAACCCGCACGCGTAATGAAAGTGAACGTAGGTGGGAGCTTCGGCGCACCACCGACCGATCCTGATGTTTTCGGATGGATTTGAGTAAGAGCGTAGGGCCTCGGACCCGAAAGATGGTGAACTATGCTTGGATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATCTGAGCAT-GGGGCGAAAGACTAATCGAACCATCTA</Hsp_qseq>
+      <Hsp_hseq>CAACAGGGATTGCCCTAGTAACGGCGAGTGAAGCGGCAACAGCTCAAATTTGAAATCTGGCCCTAGGCCCGAGTTGTAATTTGCAGAGGATGCTTCGGGCGCGGTGCCTTCCAAGTCCCCTGGAACGGGGCGCCGGAGAGGGTGAGAGCCCCGTACGGTTGGCGGCCAAGCCTGTGTGAAGCTCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCTAAGCGGGAGGTAGACCCCTTCTAAAGCTAAATATAGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAATAGCACGTGAAATTGTTGAAAGGGAAGCGCTTGTGACCAGACGTGCGCCGGGGTGTTCAGCGGGCGTTCTCGCCCGTGCACTCGCCTCGGCGCAGGCCAGCGTCGGTTCGAGTGGGAGGATAAAGGCGTCTGGAATGTGGCTCCTCCGGGAGTGTTATAGCCAGACGTGCCATGCTCCCGCCCGGACCGAGGTACGCGTTCTGCAAGGACGCTGGCGTAATGGTCTCCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCGAGGTTTTGCGCGAGTGTTTGGGTGTTAAACCCGCACGCGTAATGAAAGTGAACGTAGGTGGGAGCTTCGGCGCACCACCGACCGATCCTGATGTTTTCGGATGGATTTGAGTAAGAGCGTAGGGCCTCGGACCCGAAAGATGGTGAACTATGCTTGGATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATCTGAGCATGGGGGCGAAAGACTAATCGAACCATCTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|31621192|gb|AF466085.1|</Hit_id>
+  <Hit_def>Chloridium gonytrichii strain SMH 3785 large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>AF466085</Hit_accession>
+  <Hit_len>1059</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1516.12</Hsp_bit-score>
+      <Hsp_score>1680</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>846</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>873</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>845</Hsp_identity>
+      <Hsp_positive>845</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>847</Hsp_align-len>
+      <Hsp_qseq>CAACAGGGATTGCCCTAGTAACGGCGAGTGAAGCGGCAACAGCTCAAATTTGAAATCTGGCCCTAGGCCCGAGTTGTAATTTGCAGAGGATGCTTCGGGCGCGGTGCCTTCCAAGTCCCCTGGAACGGGGCGCCGGAGAGGGTGAGAGCCCCGTACGGTTGGCGGCCAAGCCTGTGTGAAGCTCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCTAAGCGGGAGGTAGACCCCTTCTAAAGCTAAATATAGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAATAGCACGTGAAATTGTTGAAAGGGAAGCGCTTGTGACCAGACGTGCGCCGGGGTGTTCAGCGGGCGTTCTCGCCCGTGCACTCGCCTCGGCGCAGGCCAGCGTCGGTTCGAGTGGGAGGATAAAGGCGTCTGGAATGTGGCTCCTCCGGGAGTGTTATAGCCAGACGTGCCATGCTCCCGCCCGGACCGAGGTACGCGTTCTGCAAGGACGCTGGCGTAATGGTCTCCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCGAGGTTTTGCGCGAGTGTTTGGGTGTTAAACCCGCACGCGTAATGAAAGTGAACGTAGGTGGGAGCTTCGGCGCACCACCGACCGATCCTGATGTTTTCGGATGGATTTGAGTAAGAGCGTAGGGCCTCGGACCCGAAAGATGGTGAACTATGCTTGGATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATCTGAGCAT-GGGGCGAAAGACTAATCGAACCATCTA</Hsp_qseq>
+      <Hsp_hseq>CAACAGGGATTGCCTTAGTAACGGCGAGTGAAGCGGCAACAGCTCAAATTTGAAATCTGGCCCTAGGCCCGAGTTGTAATTTGCAGAGGATGCTTCGGGCGCGGTGCCTTCCAAGTCCCCTGGAACGGGGCGCCGGAGAGGGTGAGAGCCCCGTACGGTTGGCGGCCAAGCCTGTGTGAAGCTCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCTAAGCGGGAGGTAGACCCCTTCTAAAGCTAAATATAGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAATAGCACGTGAAATTGTTGAAAGGGAAGCGCTTGTGACCAGACGTGCGCCGGGGTGTTCAGCGGGCGTTCTCGCCCGTGCACTCGCCTCGGCGCAGGCCAGCGTCGGTTCGAGTGGGAGGATAAAGGCGTCTGGAATGTGGCTCCTCCGGGAGTGTTATAGCCAGACGTGCCATGCTCCCGCCCGGACCGAGGTACGCGTTCTGCAAGGACGCTGGCGTAATGGTCTCCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCGAGGTTTTGCGCGAGTGTTTGGGTGTTAAACCCGCACGCGTAATGAAAGTGAACGTAGGTGGGAGCTTCGGCGCACCACCGACCGATCCTGATGTTTTCGGATGGATTTGAGTAAGAGCGTAGGGCCTCGGACCCGAAAGATGGTGAACTATGCTTGGATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATCTGAGCATGGGGGCGAAAGACTAATCGAACCATCTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1848043705|gb|MT559124.1|</Hit_id>
+  <Hit_def>Chloridium gonytrichii voucher IFRD500-018 large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MT559124</Hit_accession>
+  <Hit_len>843</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1508.9</Hsp_bit-score>
+      <Hsp_score>1672</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>844</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>843</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>841</Hsp_identity>
+      <Hsp_positive>841</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>843</Hsp_align-len>
+      <Hsp_qseq>ACAGGGATTGCCCTAGTAACGGCGAGTGAAGCGGCAACAGCTCAAATTTGAAATCTGGCCCTAGGCCCGAGTTGTAATTTGCAGAGGATGCTTCGGGCGCGGTGCCTTCCAAGTCCCCTGGAACGGGGCGCCGGAGAGGGTGAGAGCCCCGTACGGTTGGCGGCCAAGCCTGTGTGAAGCTCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCTAAGCGGGAGGTAGACCCCTTCTAAAGCTAAATATAGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAATAGCACGTGAAATTGTTGAAAGGGAAGCGCTTGTGACCAGACGTGCGCCGGGGTGTTCAGCGGGCGTTCTCGCCCGTGCACTCGCCTCGGCGCAGGCCAGCGTCGGTTCGAGTGGGAGGATAAAGGCGTCTGGAATGTGGCTCCTCCGGGAGTGTTATAGCCAGACGTGCCATGCTCCCGCCCGGACCGAGGTACGCGTTCTGCAAGGACGCTGGCGTAATGGTCTCCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCGAGGTTTTGCGCGAGTGTTTGGGTGTTAAACCCGCACGCGTAATGAAAGTGAACGTAGGTGGGAGCTTCGGCGCACCACCGACCGATCCTGATGTTTTCGGATGGATTTGAGTAAGAGCGTAGGGCCTCGGACCCGAAAGATGGTGAACTATGCTTGGATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATCTGAGCAT-GGGGCGAAAGACTAATCGAACCATC</Hsp_qseq>
+      <Hsp_hseq>ACAGGGATTGCCCTAGTAACGGCGAGTGAAGCGGCAACAGCTCAAATTTGAAATCTGGCCCTAGGCCCGAGTTGTAATTTGCAGAGGATGCTTCGGGCGCGGTGCCTTCCAAGTCCCCTGGAACGGGGCGCCGGAGAGGGTGAGAGCCCCGTACGGTTGGCGGCCAAGCCTGTGTGAAGCTCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCTAAGCGGGAGGTAGACCCCTTCTAAAGCTAAATATAGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAATAGCACGTGAAATTGTTGAAAGGGAAGCGCTTGTGACCAGACGTGCGCCGGGGTGTTCAGCGGGCGTTCTCGCCCGTGCACTCGCCTCGGCGCAGGCCAGCGTCGGTTCGAGTGGGAGGATAAAGGCGTCTGGAATGTGGCTCCTTCGGGAGTGTTATAGCCAGACGTGCCATGCTCCCGCCCGGACCGAGGTACGCGTTCTGCAAGGACGCTGGCGTAATGGTCTCCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCGAGGTTTTGCGCGAGTGTTTGGGTGTTAAACCCGCACGCGTAATGAAAGTGAACGTAGGTGGGAGCTTCGGCGCACCACCGACCGATCCTGATGTTTTCGGATGGATTTGAGTAAGAGCGTAGGGCCTCGGACCCGAAAGATGGTGAACTATGCTTGGATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATCTGAGCATGGGGGCGAAAGACTAATCGAACCATC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1624683584|gb|MK835820.1|</Hit_id>
+  <Hit_def>Chloridium gonytrichii voucher HKAS:93031 large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MK835820</Hit_accession>
+  <Hit_len>874</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1482.75</Hsp_bit-score>
+      <Hsp_score>1643</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>846</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>826</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>825</Hsp_identity>
+      <Hsp_positive>825</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>826</Hsp_align-len>
+      <Hsp_qseq>CGGCGAGTGAAGCGGCAACAGCTCAAATTTGAAATCTGGCCCTAGGCCCGAGTTGTAATTTGCAGAGGATGCTTCGGGCGCGGTGCCTTCCAAGTCCCCTGGAACGGGGCGCCGGAGAGGGTGAGAGCCCCGTACGGTTGGCGGCCAAGCCTGTGTGAAGCTCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCTAAGCGGGAGGTAGACCCCTTCTAAAGCTAAATATAGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAATAGCACGTGAAATTGTTGAAAGGGAAGCGCTTGTGACCAGACGTGCGCCGGGGTGTTCAGCGGGCGTTCTCGCCCGTGCACTCGCCTCGGCGCAGGCCAGCGTCGGTTCGAGTGGGAGGATAAAGGCGTCTGGAATGTGGCTCCTCCGGGAGTGTTATAGCCAGACGTGCCATGCTCCCGCCCGGACCGAGGTACGCGTTCTGCAAGGACGCTGGCGTAATGGTCTCCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCGAGGTTTTGCGCGAGTGTTTGGGTGTTAAACCCGCACGCGTAATGAAAGTGAACGTAGGTGGGAGCTTCGGCGCACCACCGACCGATCCTGATGTTTTCGGATGGATTTGAGTAAGAGCGTAGGGCCTCGGACCCGAAAGATGGTGAACTATGCTTGGATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATCTGAGCAT-GGGGCGAAAGACTAATCGAACCATCTA</Hsp_qseq>
+      <Hsp_hseq>CGGCGAGTGAAGCGGCAACAGCTCAAATTTGAAATCTGGCCCTAGGCCCGAGTTGTAATTTGCAGAGGATGCTTCGGGCGCGGTGCCTTCCAAGTCCCCTGGAACGGGGCGCCGGAGAGGGTGAGAGCCCCGTACGGTTGGCGGCCAAGCCTGTGTGAAGCTCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCTAAGCGGGAGGTAGACCCCTTCTAAAGCTAAATATAGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAATAGCACGTGAAATTGTTGAAAGGGAAGCGCTTGTGACCAGACGTGCGCCGGGGTGTTCAGCGGGCGTTCTCGCCCGTGCACTCGCCTCGGCGCAGGCCAGCGTCGGTTCGAGTGGGAGGATAAAGGCGTCTGGAATGTGGCTCCTCCGGGAGTGTTATAGCCAGACGTGCCATGCTCCCGCCCGGACCGAGGTACGCGTTCTGCAAGGACGCTGGCGTAATGGTCTCCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCGAGGTTTTGCGCGAGTGTTTGGGTGTTAAACCCGCACGCGTAATGAAAGTGAACGTAGGTGGGAGCTTCGGCGCACCACCGACCGATCCTGATGTTTTCGGATGGATTTGAGTAAGAGCGTAGGGCCTCGGACCCGAAAGATGGTGAACTATGCTTGGATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATCTGAGCATGGGGGCGAAAGACTAATCGAACCATCTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1624683586|gb|MK835821.1|</Hit_id>
+  <Hit_def>Chloridium gonytrichii voucher S-360 large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MK835821</Hit_accession>
+  <Hit_len>920</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1477.34</Hsp_bit-score>
+      <Hsp_score>1637</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>846</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>823</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>822</Hsp_identity>
+      <Hsp_positive>822</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>823</Hsp_align-len>
+      <Hsp_qseq>CGAGTGAAGCGGCAACAGCTCAAATTTGAAATCTGGCCCTAGGCCCGAGTTGTAATTTGCAGAGGATGCTTCGGGCGCGGTGCCTTCCAAGTCCCCTGGAACGGGGCGCCGGAGAGGGTGAGAGCCCCGTACGGTTGGCGGCCAAGCCTGTGTGAAGCTCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCTAAGCGGGAGGTAGACCCCTTCTAAAGCTAAATATAGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAATAGCACGTGAAATTGTTGAAAGGGAAGCGCTTGTGACCAGACGTGCGCCGGGGTGTTCAGCGGGCGTTCTCGCCCGTGCACTCGCCTCGGCGCAGGCCAGCGTCGGTTCGAGTGGGAGGATAAAGGCGTCTGGAATGTGGCTCCTCCGGGAGTGTTATAGCCAGACGTGCCATGCTCCCGCCCGGACCGAGGTACGCGTTCTGCAAGGACGCTGGCGTAATGGTCTCCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCGAGGTTTTGCGCGAGTGTTTGGGTGTTAAACCCGCACGCGTAATGAAAGTGAACGTAGGTGGGAGCTTCGGCGCACCACCGACCGATCCTGATGTTTTCGGATGGATTTGAGTAAGAGCGTAGGGCCTCGGACCCGAAAGATGGTGAACTATGCTTGGATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATCTGAGCAT-GGGGCGAAAGACTAATCGAACCATCTA</Hsp_qseq>
+      <Hsp_hseq>CGAGTGAAGCGGCAACAGCTCAAATTTGAAATCTGGCCCTAGGCCCGAGTTGTAATTTGCAGAGGATGCTTCGGGCGCGGTGCCTTCCAAGTCCCCTGGAACGGGGCGCCGGAGAGGGTGAGAGCCCCGTACGGTTGGCGGCCAAGCCTGTGTGAAGCTCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCTAAGCGGGAGGTAGACCCCTTCTAAAGCTAAATATAGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAATAGCACGTGAAATTGTTGAAAGGGAAGCGCTTGTGACCAGACGTGCGCCGGGGTGTTCAGCGGGCGTTCTCGCCCGTGCACTCGCCTCGGCGCAGGCCAGCGTCGGTTCGAGTGGGAGGATAAAGGCGTCTGGAATGTGGCTCCTCCGGGAGTGTTATAGCCAGACGTGCCATGCTCCCGCCCGGACCGAGGTACGCGTTCTGCAAGGACGCTGGCGTAATGGTCTCCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCGAGGTTTTGCGCGAGTGTTTGGGTGTTAAACCCGCACGCGTAATGAAAGTGAACGTAGGTGGGAGCTTCGGCGCACCACCGACCGATCCTGATGTTTTCGGATGGATTTGAGTAAGAGCGTAGGGCCTCGGACCCGAAAGATGGTGAACTATGCTTGGATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATCTGAGCATGGGGGCGAAAGACTAATCGAACCATCTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1624683587|gb|MK835822.1|</Hit_id>
+  <Hit_def>Chloridium gonytrichii voucher HKAS:93053 large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MK835822</Hit_accession>
+  <Hit_len>908</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1473.74</Hsp_bit-score>
+      <Hsp_score>1633</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>846</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>821</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>820</Hsp_identity>
+      <Hsp_positive>820</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>821</Hsp_align-len>
+      <Hsp_qseq>AGTGAAGCGGCAACAGCTCAAATTTGAAATCTGGCCCTAGGCCCGAGTTGTAATTTGCAGAGGATGCTTCGGGCGCGGTGCCTTCCAAGTCCCCTGGAACGGGGCGCCGGAGAGGGTGAGAGCCCCGTACGGTTGGCGGCCAAGCCTGTGTGAAGCTCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCTAAGCGGGAGGTAGACCCCTTCTAAAGCTAAATATAGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAATAGCACGTGAAATTGTTGAAAGGGAAGCGCTTGTGACCAGACGTGCGCCGGGGTGTTCAGCGGGCGTTCTCGCCCGTGCACTCGCCTCGGCGCAGGCCAGCGTCGGTTCGAGTGGGAGGATAAAGGCGTCTGGAATGTGGCTCCTCCGGGAGTGTTATAGCCAGACGTGCCATGCTCCCGCCCGGACCGAGGTACGCGTTCTGCAAGGACGCTGGCGTAATGGTCTCCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCGAGGTTTTGCGCGAGTGTTTGGGTGTTAAACCCGCACGCGTAATGAAAGTGAACGTAGGTGGGAGCTTCGGCGCACCACCGACCGATCCTGATGTTTTCGGATGGATTTGAGTAAGAGCGTAGGGCCTCGGACCCGAAAGATGGTGAACTATGCTTGGATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATCTGAGCAT-GGGGCGAAAGACTAATCGAACCATCTA</Hsp_qseq>
+      <Hsp_hseq>AGTGAAGCGGCAACAGCTCAAATTTGAAATCTGGCCCTAGGCCCGAGTTGTAATTTGCAGAGGATGCTTCGGGCGCGGTGCCTTCCAAGTCCCCTGGAACGGGGCGCCGGAGAGGGTGAGAGCCCCGTACGGTTGGCGGCCAAGCCTGTGTGAAGCTCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCTAAGCGGGAGGTAGACCCCTTCTAAAGCTAAATATAGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAATAGCACGTGAAATTGTTGAAAGGGAAGCGCTTGTGACCAGACGTGCGCCGGGGTGTTCAGCGGGCGTTCTCGCCCGTGCACTCGCCTCGGCGCAGGCCAGCGTCGGTTCGAGTGGGAGGATAAAGGCGTCTGGAATGTGGCTCCTCCGGGAGTGTTATAGCCAGACGTGCCATGCTCCCGCCCGGACCGAGGTACGCGTTCTGCAAGGACGCTGGCGTAATGGTCTCCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCGAGGTTTTGCGCGAGTGTTTGGGTGTTAAACCCGCACGCGTAATGAAAGTGAACGTAGGTGGGAGCTTCGGCGCACCACCGACCGATCCTGATGTTTTCGGATGGATTTGAGTAAGAGCGTAGGGCCTCGGACCCGAAAGATGGTGAACTATGCTTGGATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATCTGAGCATGGGGGCGAAAGACTAATCGAACCATCTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1662854636|gb|MK963073.1|</Hit_id>
+  <Hit_def>Chloridium sp. KW-2019a isolate AKTW 58 large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MK963073</Hit_accession>
+  <Hit_len>808</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1458.41</Hsp_bit-score>
+      <Hsp_score>1616</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>819</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>808</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>808</Hsp_identity>
+      <Hsp_positive>808</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>808</Hsp_align-len>
+      <Hsp_qseq>GCCCTAGTAACGGCGAGTGAAGCGGCAACAGCTCAAATTTGAAATCTGGCCCTAGGCCCGAGTTGTAATTTGCAGAGGATGCTTCGGGCGCGGTGCCTTCCAAGTCCCCTGGAACGGGGCGCCGGAGAGGGTGAGAGCCCCGTACGGTTGGCGGCCAAGCCTGTGTGAAGCTCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCTAAGCGGGAGGTAGACCCCTTCTAAAGCTAAATATAGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAATAGCACGTGAAATTGTTGAAAGGGAAGCGCTTGTGACCAGACGTGCGCCGGGGTGTTCAGCGGGCGTTCTCGCCCGTGCACTCGCCTCGGCGCAGGCCAGCGTCGGTTCGAGTGGGAGGATAAAGGCGTCTGGAATGTGGCTCCTCCGGGAGTGTTATAGCCAGACGTGCCATGCTCCCGCCCGGACCGAGGTACGCGTTCTGCAAGGACGCTGGCGTAATGGTCTCCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCGAGGTTTTGCGCGAGTGTTTGGGTGTTAAACCCGCACGCGTAATGAAAGTGAACGTAGGTGGGAGCTTCGGCGCACCACCGACCGATCCTGATGTTTTCGGATGGATTTGAGTAAGAGCGTAGGGCCTCGGACCCGAAAGATGGTGAACTATGCTTGGATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATCTGAGCAT</Hsp_qseq>
+      <Hsp_hseq>GCCCTAGTAACGGCGAGTGAAGCGGCAACAGCTCAAATTTGAAATCTGGCCCTAGGCCCGAGTTGTAATTTGCAGAGGATGCTTCGGGCGCGGTGCCTTCCAAGTCCCCTGGAACGGGGCGCCGGAGAGGGTGAGAGCCCCGTACGGTTGGCGGCCAAGCCTGTGTGAAGCTCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCTAAGCGGGAGGTAGACCCCTTCTAAAGCTAAATATAGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAATAGCACGTGAAATTGTTGAAAGGGAAGCGCTTGTGACCAGACGTGCGCCGGGGTGTTCAGCGGGCGTTCTCGCCCGTGCACTCGCCTCGGCGCAGGCCAGCGTCGGTTCGAGTGGGAGGATAAAGGCGTCTGGAATGTGGCTCCTCCGGGAGTGTTATAGCCAGACGTGCCATGCTCCCGCCCGGACCGAGGTACGCGTTCTGCAAGGACGCTGGCGTAATGGTCTCCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCGAGGTTTTGCGCGAGTGTTTGGGTGTTAAACCCGCACGCGTAATGAAAGTGAACGTAGGTGGGAGCTTCGGCGCACCACCGACCGATCCTGATGTTTTCGGATGGATTTGAGTAAGAGCGTAGGGCCTCGGACCCGAAAGATGGTGAACTATGCTTGGATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATCTGAGCAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>3151633</Statistics_db-num>
+      <Statistics_db-len>310359048737</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
